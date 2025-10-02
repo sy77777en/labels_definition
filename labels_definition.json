@@ -15,7 +15,7 @@
           "_full_key": "cam_setup.angle.end_with.camera_angle_end_with_bird_eye_angle"
         },
         "camera_angle_end_with_level_angle": {
-          "_description": "The video ends with the camera at a level angle, parallel to the ground regardless of Dutch angle.",
+          "_description": "The video ends with the camera at a level angle, parallel to the ground (even if a Dutch angle is used).",
           "_full_key": "cam_setup.angle.end_with.camera_angle_end_with_level_angle"
         },
         "camera_angle_end_with_high_angle": {
@@ -58,7 +58,7 @@
         }
       },
       "is_dutch_angle_varying": {
-        "_description": "There is a Dutch (canted) angle in the video, and its degree varies.",
+        "_description": "There is a Dutch (canted) angle that changes its degree during the video, with the horizon line not level.",
         "_full_key": "cam_setup.angle.is_dutch_angle_varying"
       },
       "is_dutch_angle_fixed": {
@@ -66,7 +66,7 @@
         "_full_key": "cam_setup.angle.is_dutch_angle_fixed"
       },
       "is_dutch_angle": {
-        "_description": "There is a Dutch (canted) angle of more than 15 degrees present at any point in the video.",
+        "_description": "There is an obvious Dutch (canted) angle (more than 15 degrees) that occurs in the video.",
         "_full_key": "cam_setup.angle.is_dutch_angle"
       },
       "is_camera_angle_applicable": {
@@ -83,7 +83,7 @@
           "_full_key": "cam_setup.angle.is_always.camera_angle_is_bird_eye_angle"
         },
         "camera_angle_is_level_angle": {
-          "_description": "The camera maintains a level angle parallel to the ground regardless of Dutch angle throughout the video.",
+          "_description": "The camera maintains a level angle parallel to the ground (even if a Dutch angle is used) throughout the video.",
           "_full_key": "cam_setup.angle.is_always.camera_angle_is_level_angle"
         },
         "camera_angle_is_high_angle": {
@@ -105,7 +105,7 @@
           "_full_key": "cam_setup.angle.start_with.camera_angle_start_with_bird_eye_angle"
         },
         "camera_angle_start_with_level_angle": {
-          "_description": "The video starts with the camera at a level angle, parallel to the ground regardless of Dutch angle.",
+          "_description": "The video starts with the camera at a level angle, parallel to the ground (even if a Dutch angle is used).",
           "_full_key": "cam_setup.angle.start_with.camera_angle_start_with_level_angle"
         },
         "camera_angle_start_with_high_angle": {
@@ -146,7 +146,7 @@
         "_full_key": "cam_setup.video_speed.slow_motion"
       },
       "fast_motion": {
-        "_description": "A fast-motion video where playback is forward and slightly faster than real-time (about 1.5×–3×).",
+        "_description": "A fast-motion video where playback is forward and moderately faster than real-time (about 1.5×–3×).",
         "_full_key": "cam_setup.video_speed.fast_motion"
       },
       "regular_speed": {
@@ -162,7 +162,7 @@
         "_full_key": "cam_setup.video_speed.speed_ramp"
       },
       "time_lapse": {
-        "_description": "A time-lapse video played forward at a greatly accelerated speed (more than 3× real time), showing time passing rapidly over a long period.",
+        "_description": "A time-lapse video played forward at a greatly accelerated speed (more than 3× real-time), showing time passing rapidly over a long period.",
         "_full_key": "cam_setup.video_speed.time_lapse"
       },
       "stop_motion": {
@@ -177,7 +177,7 @@
     "shot_size": {
       "end_with": {
         "shot_size_end_with_extreme_wide": {
-          "_description": "A video that ends with a extreme wide shot.",
+          "_description": "The video ends with an extreme wide shot, emphasizing the vast environment over any subjects.",
           "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_extreme_wide"
         },
         "shot_size_end_with_medium": {
@@ -185,27 +185,27 @@
           "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_medium"
         },
         "shot_size_end_with_medium_close_up": {
-          "_description": "A video that ends with a medium close-up shot, framing the human subject from the chest upward.",
+          "_description": "The video ends with a medium close-up shot, framing the human subject from the chest upward.",
           "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_medium_close_up"
         },
         "shot_size_end_with_extreme_close_up": {
-          "_description": "A video that ends with an extreme close-up shot, isolating a very small detail of the subject or scene.",
+          "_description": "The video ends with an extreme close-up shot, isolating a very small detail of the subject or scene.",
           "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_extreme_close_up"
         },
         "shot_size_end_with_wide": {
-          "_description": "The video ends with either a wide shot of scenery or a wide shot that frames the entire subject while keeping ample background context.",
+          "_description": "The video ends either with a wide shot of scenery, or by framing the entire body of the salient subject with ample background context.",
           "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_wide"
         },
         "shot_size_end_with_full": {
-          "_description": "A video that ends with a full shot, framing the entire subject while maintaining focus on it without showing excessive surrounding scenery.",
+          "_description": "The video ends with a full shot, framing the entire body of the salient subject without showing excessive surrounding scenery.",
           "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_full"
         },
         "shot_size_end_with_medium_full": {
-          "_description": "A video that ends with a medium full shot, framing the human subject from mid-thigh or knee upward.",
+          "_description": "The video ends with a medium full shot, framing the human subject from mid-thigh (or knee) upward.",
           "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_medium_full"
         },
         "shot_size_end_with_close_up": {
-          "_description": "A video that ends with a close-up shot that highlights a distinct part of the subject or scene while still preserving some surrounding context.",
+          "_description": "The video ends with a close-up shot that highlights a distinct part of the subject or scene while still preserving some surrounding context.",
           "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_close_up"
         }
       },
@@ -222,7 +222,7 @@
         "_full_key": "cam_setup.shot_size.is_shot_size_applicable"
       },
       "shot_size_change_from_small_to_large": {
-        "_description": "The shot size transitions from a tighter to a wider framing.",
+        "_description": "The shot size changes noticeably from a tighter to a wider framing.",
         "_full_key": "cam_setup.shot_size.shot_size_change_from_small_to_large"
       },
       "subject_revealing": {
@@ -235,49 +235,49 @@
       },
       "is_always": {
         "shot_size_is_medium": {
-          "_description": "A video that maintains a medium shot throughout, consistently framing about half of the human subject.",
+          "_description": "The video maintains a medium shot throughout, consistently framing about half of the human subject.",
           "_full_key": "cam_setup.shot_size.is_always.shot_size_is_medium"
         },
         "shot_size_is_full": {
-          "_description": "A video that maintains a full shot throughout, consistently framing the entire body of the subject without showing excessive surrounding scenery.",
+          "_description": "The video maintains a full shot throughout, consistently framing the entire body of the salient subject without showing excessive surrounding scenery.",
           "_full_key": "cam_setup.shot_size.is_always.shot_size_is_full"
         },
         "shot_size_is_wide": {
-          "_description": "A video that maintains a wide shot throughout, consistently showing scenery or framing the entire subject while keeping ample background context.",
+          "_description": "The video maintains a wide shot throughout, consistently showing wide scenery or framing the entire body of the salient subject while keeping ample background context.",
           "_full_key": "cam_setup.shot_size.is_always.shot_size_is_wide"
         },
         "shot_size_is_extreme_close_up": {
-          "_description": "A video that maintains an extreme close-up shot throughout, consistently isolating a very small detail of the subject or scene.",
+          "_description": "The video maintains an extreme close-up shot throughout, consistently isolating a very small detail of the subject or scene.",
           "_full_key": "cam_setup.shot_size.is_always.shot_size_is_extreme_close_up"
         },
         "shot_size_is_close_up": {
-          "_description": "A video that maintains a close-up shot throughout, consistently highlighting a distinct part of the subject or scene while still preserving some surrounding context.",
+          "_description": "The video maintains a close-up shot throughout, consistently highlighting a distinct part of the subject or scene while still preserving some surrounding context.",
           "_full_key": "cam_setup.shot_size.is_always.shot_size_is_close_up"
         },
         "shot_size_is_medium_close_up": {
-          "_description": "A video that maintains a medium close-up shot throughout, consistently framing the human subject from the chest upward.",
+          "_description": "The video maintains a medium close-up shot throughout, consistently framing the human subject from the chest upward.",
           "_full_key": "cam_setup.shot_size.is_always.shot_size_is_medium_close_up"
         },
         "shot_size_is_extreme_wide": {
-          "_description": "A video that maintains an extreme wide shot throughout, consistently emphasizing the setting over any subjects.",
+          "_description": "The video maintains an extreme wide shot throughout, consistently emphasizing the vast environment over any subjects.",
           "_full_key": "cam_setup.shot_size.is_always.shot_size_is_extreme_wide"
         },
         "shot_size_is_medium_full": {
-          "_description": "A video that maintains a medium full shot throughout, consistently framing the human subject from mid-thigh (or knee) upward.",
+          "_description": "The video maintains a medium full shot throughout, consistently framing the human subject from mid-thigh (or knee) upward.",
           "_full_key": "cam_setup.shot_size.is_always.shot_size_is_medium_full"
         }
       },
       "shot_size_change_from_large_to_small": {
-        "_description": "The shot size transitions from a wider to a tighter framing.",
+        "_description": "The shot size changes noticeably from a wider to a tighter framing.",
         "_full_key": "cam_setup.shot_size.shot_size_change_from_large_to_small"
       },
       "start_with": {
         "shot_size_start_with_extreme_close_up": {
-          "_description": "A video that starts with an extreme close-up shot, isolating a very small detail of the subject or scene.",
+          "_description": "The video starts with an extreme close-up shot, isolating a very small detail of the subject or scene.",
           "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_extreme_close_up"
         },
         "shot_size_start_with_extreme_wide": {
-          "_description": "A video that starts with an extreme wide shot, emphasizing the setting over any subjects.",
+          "_description": "The video starts with an extreme wide shot, emphasizing the vast environment over any subjects.",
           "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_extreme_wide"
         },
         "shot_size_start_with_medium_close_up": {
@@ -285,23 +285,23 @@
           "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_medium_close_up"
         },
         "shot_size_start_with_medium_full": {
-          "_description": "A video that starts with a medium-full shot, framing the human subject from the mid-thigh (or knee) upward.",
+          "_description": "The video starts with a medium-full shot, framing the human subject from the mid-thigh (or knee) upward.",
           "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_medium_full"
         },
         "shot_size_start_with_wide": {
-          "_description": "The video starts with a wide shot of scenery, or frames the entire subject while keeping ample background context.",
+          "_description": "The video starts either with a wide shot of scenery, or by framing the entire body of the salient subject with ample background context.",
           "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_wide"
         },
         "shot_size_start_with_close_up": {
-          "_description": "A video that starts with a close-up shot that highlights a distinct part of the subject or scene while still preserving some surrounding context.",
+          "_description": "The video starts with a close-up shot that highlights a distinct part of the subject or scene while still preserving some surrounding context.",
           "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_close_up"
         },
         "shot_size_start_with_medium": {
-          "_description": "A video that starts with a medium shot, framing about half of the subject.",
+          "_description": "The video starts with a medium shot, framing about half of the subject.",
           "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_medium"
         },
         "shot_size_start_with_full": {
-          "_description": "A video that starts with a full shot, framing the entire subject while maintaining focus on it without showing excessive surrounding scenery.",
+          "_description": "The video starts with a full shot, framing the entire body of the salient subject without showing excessive surrounding scenery.",
           "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_full"
         }
       }
@@ -429,15 +429,15 @@
     "height_wrt_subject": {
       "end_with": {
         "height_wrt_subject_end_with_below_subject": {
-          "_description": "A video that ends with the camera positioned below the subject.",
+          "_description": "The video ends with the camera positioned below the subject.",
           "_full_key": "cam_setup.height_wrt_subject.end_with.height_wrt_subject_end_with_below_subject"
         },
         "height_wrt_subject_end_with_above_subject": {
-          "_description": "A video that ends with the camera positioned above the subject.",
+          "_description": "The video ends with the camera positioned above the subject.",
           "_full_key": "cam_setup.height_wrt_subject.end_with.height_wrt_subject_end_with_above_subject"
         },
         "height_wrt_subject_end_with_at_subject": {
-          "_description": "A video that ends with the camera positioned at the same height as the subject.",
+          "_description": "The video ends with the camera positioned at about the same height as the subject.",
           "_full_key": "cam_setup.height_wrt_subject.end_with.height_wrt_subject_end_with_at_subject"
         }
       },
@@ -472,15 +472,15 @@
         "_full_key": "cam_setup.height_wrt_subject.is_subject_height_applicable"
       },
       "height_wrt_subject_change_from_high_to_low": {
-        "_description": "A shot where the camera's height decreases noticeably, transitioning from above to level with the subject or from level to below.",
+        "_description": "The camera's height decreases noticeably, transitioning from above to level with the subject, or from level to below.",
         "_full_key": "cam_setup.height_wrt_subject.height_wrt_subject_change_from_high_to_low"
       },
       "height_wrt_subject_change": {
-        "_description": "A shot where the camera's height relative to the subject changes significantly, moving between positions above, at level with, or below the subject.",
+        "_description": "The camera's height relative to the subject changes significantly, moving between positions above, at level with, or below the subject.",
         "_full_key": "cam_setup.height_wrt_subject.height_wrt_subject_change"
       },
       "height_wrt_subject_change_from_low_to_high": {
-        "_description": "A shot where the camera's height increases noticeably, transitioning from below to level with the subject or from level to above.",
+        "_description": "The camera's height increases noticeably, transitioning from below to level with the subject, or from level to above.",
         "_full_key": "cam_setup.height_wrt_subject.height_wrt_subject_change_from_low_to_high"
       },
       "is_always": {
@@ -489,7 +489,7 @@
           "_full_key": "cam_setup.height_wrt_subject.is_always.height_wrt_subject_is_below_subject"
         },
         "height_wrt_subject_is_at_subject": {
-          "_description": "The camera remains positioned at the same height as the subject throughout the video.",
+          "_description": "The camera remains positioned at about the same height as the subject throughout the video.",
           "_full_key": "cam_setup.height_wrt_subject.is_always.height_wrt_subject_is_at_subject"
         },
         "height_wrt_subject_is_above_subject": {
@@ -499,15 +499,15 @@
       },
       "start_with": {
         "height_wrt_subject_start_with_above_subject": {
-          "_description": "A video that starts with the camera positioned above the subject.",
+          "_description": "The video starts with the camera positioned above the subject.",
           "_full_key": "cam_setup.height_wrt_subject.start_with.height_wrt_subject_start_with_above_subject"
         },
         "height_wrt_subject_start_with_below_subject": {
-          "_description": "A video that starts with the camera positioned below the subject.",
+          "_description": "The video starts with the camera positioned below the subject.",
           "_full_key": "cam_setup.height_wrt_subject.start_with.height_wrt_subject_start_with_below_subject"
         },
         "height_wrt_subject_start_with_at_subject": {
-          "_description": "A video that starts with the camera positioned at the same height as the subject.",
+          "_description": "The video starts with the camera positioned at about the same height as the subject.",
           "_full_key": "cam_setup.height_wrt_subject.start_with.height_wrt_subject_start_with_at_subject"
         }
       }
@@ -670,7 +670,7 @@
         "_full_key": "cam_setup.focus.is_deep_focus"
       },
       "is_rack_pull_focus": {
-        "_description": "A shot using rack focus or pull focus techniques to shift the focus plane.",
+        "_description": "The camera uses rack focus or pull focus to shift the focus plane.",
         "_full_key": "cam_setup.focus.is_rack_pull_focus"
       },
       "focus_change_from_out_to_in_focus": {
@@ -704,7 +704,7 @@
         }
       },
       "is_ultra_shallow_focus": {
-        "_description": "The camera uses extremely shallow depth of field, with a very narrow focus range.",
+        "_description": "The camera uses extremely shallow depth of field, with only a narrow plane in focus.",
         "_full_key": "cam_setup.focus.is_ultra_shallow_focus"
       },
       "focus_change_from_in_to_out_of_focus": {
@@ -712,7 +712,7 @@
         "_full_key": "cam_setup.focus.focus_change_from_in_to_out_of_focus"
       },
       "focus_change_from_far_to_near": {
-        "_description": "The focus plane shifts from distant to close, moving between foreground, middleground, or background.",
+        "_description": "The focal plane shifts from distant to close, moving between foreground, middleground, or background.",
         "_full_key": "cam_setup.focus.focus_change_from_far_to_near"
       },
       "is_shallow_focus": {
@@ -728,12 +728,12 @@
         "_full_key": "cam_setup.focus.is_focus_applicable"
       },
       "focus_change_from_near_to_far": {
-        "_description": "The focus plane shifts from close to distant, moving between foreground, middleground, or background.",
+        "_description": "The focal plane shifts from close to distant, moving between foreground, middleground, or background.",
         "_full_key": "cam_setup.focus.focus_change_from_near_to_far"
       },
       "is_always": {
         "focus_is_middle_ground": {
-          "_description": "The camera remains focused on the middleground, with the foreground and background blurred.",
+          "_description": "The camera remains focused on the middleground, keeping the foreground and background blurred.",
           "_full_key": "cam_setup.focus.is_always.focus_is_middle_ground"
         },
         "focus_is_out_of_focus": {
