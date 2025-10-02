@@ -1,0 +1,1672 @@
+{
+  "cam_setup": {
+    "angle": {
+      "camera_angle_change_from_low_to_high": {
+        "_description": "The camera angle increases noticeably relative to the ground, moving between worm's eye, low angle, level, high angle, or bird's eye view.",
+        "_full_key": "cam_setup.angle.camera_angle_change_from_low_to_high"
+      },
+      "end_with": {
+        "camera_angle_end_with_worm_eye_angle": {
+          "_description": "The video ends with the camera at a worm's eye angle, looking straight up from below.",
+          "_full_key": "cam_setup.angle.end_with.camera_angle_end_with_worm_eye_angle"
+        },
+        "camera_angle_end_with_bird_eye_angle": {
+          "_description": "The video ends with the camera at a bird's eye angle, looking straight down from above.",
+          "_full_key": "cam_setup.angle.end_with.camera_angle_end_with_bird_eye_angle"
+        },
+        "camera_angle_end_with_level_angle": {
+          "_description": "The video ends with the camera at a level angle, parallel to the ground regardless of Dutch angle.",
+          "_full_key": "cam_setup.angle.end_with.camera_angle_end_with_level_angle"
+        },
+        "camera_angle_end_with_high_angle": {
+          "_description": "The video ends with the camera at a high angle, looking downward compared to a level angle but not directly top-down.",
+          "_full_key": "cam_setup.angle.end_with.camera_angle_end_with_high_angle"
+        },
+        "camera_angle_end_with_low_angle": {
+          "_description": "The video ends with the camera at a low angle, looking upward compared to a level angle but not directly from below.",
+          "_full_key": "cam_setup.angle.end_with.camera_angle_end_with_low_angle"
+        }
+      },
+      "camera_angle_change_from_high_to_low": {
+        "_description": "The camera angle decreases noticeably relative to the ground, moving between bird's eye, high angle, level, low angle, or worm's eye view.",
+        "_full_key": "cam_setup.angle.camera_angle_change_from_high_to_low"
+      },
+      "from_to": {
+        "camera_angle_from_high_to_low": {
+          "_description": "The video starts with the camera at a high angle and transitions to a low angle.",
+          "_full_key": "cam_setup.angle.from_to.camera_angle_from_high_to_low"
+        },
+        "camera_angle_from_high_to_level": {
+          "_description": "The video starts with the camera at a high angle and transitions to a level angle.",
+          "_full_key": "cam_setup.angle.from_to.camera_angle_from_high_to_level"
+        },
+        "camera_angle_from_low_to_level": {
+          "_description": "The video starts with the camera at a low angle and transitions to a level angle.",
+          "_full_key": "cam_setup.angle.from_to.camera_angle_from_low_to_level"
+        },
+        "camera_angle_from_level_to_low": {
+          "_description": "The video starts with the camera at a level angle and transitions to a low angle.",
+          "_full_key": "cam_setup.angle.from_to.camera_angle_from_level_to_low"
+        },
+        "camera_angle_from_low_to_high": {
+          "_description": "The video starts with the camera at a low angle and transitions to a high angle.",
+          "_full_key": "cam_setup.angle.from_to.camera_angle_from_low_to_high"
+        },
+        "camera_angle_from_level_to_high": {
+          "_description": "The video starts with the camera at a level angle and transitions to a high angle.",
+          "_full_key": "cam_setup.angle.from_to.camera_angle_from_level_to_high"
+        }
+      },
+      "is_dutch_angle_varying": {
+        "_description": "There is a Dutch (canted) angle in the video, and its degree varies.",
+        "_full_key": "cam_setup.angle.is_dutch_angle_varying"
+      },
+      "is_dutch_angle_fixed": {
+        "_description": "The degree of the Dutch (canted) angle stays the same throughout the video.",
+        "_full_key": "cam_setup.angle.is_dutch_angle_fixed"
+      },
+      "is_dutch_angle": {
+        "_description": "There is a Dutch (canted) angle of more than 15 degrees present at any point in the video.",
+        "_full_key": "cam_setup.angle.is_dutch_angle"
+      },
+      "is_camera_angle_applicable": {
+        "_description": "The camera angle relative to the ground is clear.",
+        "_full_key": "cam_setup.angle.is_camera_angle_applicable"
+      },
+      "is_always": {
+        "camera_angle_is_worm_eye_angle": {
+          "_description": "The camera maintains a worm's eye angle throughout, consistently looking straight up from below.",
+          "_full_key": "cam_setup.angle.is_always.camera_angle_is_worm_eye_angle"
+        },
+        "camera_angle_is_bird_eye_angle": {
+          "_description": "The camera maintains a bird's eye angle throughout, consistently looking straight down from above.",
+          "_full_key": "cam_setup.angle.is_always.camera_angle_is_bird_eye_angle"
+        },
+        "camera_angle_is_level_angle": {
+          "_description": "The camera maintains a level angle parallel to the ground regardless of Dutch angle throughout the video.",
+          "_full_key": "cam_setup.angle.is_always.camera_angle_is_level_angle"
+        },
+        "camera_angle_is_high_angle": {
+          "_description": "The camera maintains a high angle throughout, consistently looking downward compared to a level angle but not directly top-down.",
+          "_full_key": "cam_setup.angle.is_always.camera_angle_is_high_angle"
+        },
+        "camera_angle_is_low_angle": {
+          "_description": "The camera maintains a low angle throughout, consistently looking upward compared to a level angle but not directly bottom-up.",
+          "_full_key": "cam_setup.angle.is_always.camera_angle_is_low_angle"
+        }
+      },
+      "start_with": {
+        "camera_angle_start_with_worm_eye_angle": {
+          "_description": "The video starts with the camera at a worm’s eye angle, looking straight up from below.",
+          "_full_key": "cam_setup.angle.start_with.camera_angle_start_with_worm_eye_angle"
+        },
+        "camera_angle_start_with_bird_eye_angle": {
+          "_description": "The video starts with the camera at a bird's eye angle, looking straight down from above.",
+          "_full_key": "cam_setup.angle.start_with.camera_angle_start_with_bird_eye_angle"
+        },
+        "camera_angle_start_with_level_angle": {
+          "_description": "The video starts with the camera at a level angle, parallel to the ground regardless of Dutch angle.",
+          "_full_key": "cam_setup.angle.start_with.camera_angle_start_with_level_angle"
+        },
+        "camera_angle_start_with_high_angle": {
+          "_description": "The video starts with the camera at a high angle, looking downward compared to a level angle but not directly top-down.",
+          "_full_key": "cam_setup.angle.start_with.camera_angle_start_with_high_angle"
+        },
+        "camera_angle_start_with_low_angle": {
+          "_description": "The video starts with the camera at a low angle, looking upward compared to a level angle but not directly from below.",
+          "_full_key": "cam_setup.angle.start_with.camera_angle_start_with_low_angle"
+        }
+      },
+      "camera_angle_change": {
+        "_description": "The camera angle changes significantly relative to the ground, moving between bird's eye, high angle, level, low angle, or worm's eye view.",
+        "_full_key": "cam_setup.angle.camera_angle_change"
+      }
+    },
+    "lens_distortion": {
+      "no_lens_distortion": {
+        "_description": "A shot without noticeable lens distortion.",
+        "_full_key": "cam_setup.lens_distortion.no_lens_distortion"
+      },
+      "with_lens_distortion": {
+        "_description": "The video shows mild barrel distortion or extreme fisheye distortion, where lines, especially near the frame edges, bend outward.",
+        "_full_key": "cam_setup.lens_distortion.with_lens_distortion"
+      },
+      "fisheye_distortion": {
+        "_description": "The video shows extreme fisheye lens distortion, where most lines curve strongly outward.",
+        "_full_key": "cam_setup.lens_distortion.fisheye_distortion"
+      },
+      "barrel_distortion": {
+        "_description": "A shot captured with noticeable yet slight barrel distortion.",
+        "_full_key": "cam_setup.lens_distortion.barrel_distortion"
+      }
+    },
+    "video_speed": {
+      "slow_motion": {
+        "_description": "A slow-motion video with forward playback speed slower than real-time.",
+        "_full_key": "cam_setup.video_speed.slow_motion"
+      },
+      "fast_motion": {
+        "_description": "A fast-motion video where playback is forward and slightly faster than real-time (about 1.5×–3×).",
+        "_full_key": "cam_setup.video_speed.fast_motion"
+      },
+      "regular_speed": {
+        "_description": "The playback is forward at real-time speed without noticeable speed-up or slowdown.",
+        "_full_key": "cam_setup.video_speed.regular_speed"
+      },
+      "fast_motion_without_time_lapse": {
+        "_description": "A fast-motion video with forward playback speed moderately faster than real time (about 1.5×–3×), but not a time-lapse where the speed is greatly accelerated over a long duration.",
+        "_full_key": "cam_setup.video_speed.fast_motion_without_time_lapse"
+      },
+      "speed_ramp": {
+        "_description": "The video shows a speed ramp effect, where playback speed changes between faster and slower rates.",
+        "_full_key": "cam_setup.video_speed.speed_ramp"
+      },
+      "time_lapse": {
+        "_description": "A time-lapse video played forward at a greatly accelerated speed (more than 3× real time), showing time passing rapidly over a long period.",
+        "_full_key": "cam_setup.video_speed.time_lapse"
+      },
+      "stop_motion": {
+        "_description": "A stop-motion video using frame-by-frame changes to simulate motion.",
+        "_full_key": "cam_setup.video_speed.stop_motion"
+      },
+      "time_reversed": {
+        "_description": "A time-reversed video where events play backward in time.",
+        "_full_key": "cam_setup.video_speed.time_reversed"
+      }
+    },
+    "shot_size": {
+      "end_with": {
+        "shot_size_end_with_extreme_wide": {
+          "_description": "A video that ends with a extreme wide shot.",
+          "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_extreme_wide"
+        },
+        "shot_size_end_with_medium": {
+          "_description": "A video that ends with a medium shot, framing about half of the subject.",
+          "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_medium"
+        },
+        "shot_size_end_with_medium_close_up": {
+          "_description": "A video that ends with a medium close-up shot, framing the human subject from the chest upward.",
+          "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_medium_close_up"
+        },
+        "shot_size_end_with_extreme_close_up": {
+          "_description": "A video that ends with an extreme close-up shot, isolating a very small detail of the subject or scene.",
+          "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_extreme_close_up"
+        },
+        "shot_size_end_with_wide": {
+          "_description": "The video ends with either a wide shot of scenery or a wide shot that frames the entire subject while keeping ample background context.",
+          "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_wide"
+        },
+        "shot_size_end_with_full": {
+          "_description": "A video that ends with a full shot, framing the entire subject while maintaining focus on it without showing excessive surrounding scenery.",
+          "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_full"
+        },
+        "shot_size_end_with_medium_full": {
+          "_description": "A video that ends with a medium full shot, framing the human subject from mid-thigh or knee upward.",
+          "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_medium_full"
+        },
+        "shot_size_end_with_close_up": {
+          "_description": "A video that ends with a close-up shot that highlights a distinct part of the subject or scene while still preserving some surrounding context.",
+          "_full_key": "cam_setup.shot_size.end_with.shot_size_end_with_close_up"
+        }
+      },
+      "shot_size_change": {
+        "_description": "The shot size changes noticeably throughout the video.",
+        "_full_key": "cam_setup.shot_size.shot_size_change"
+      },
+      "subject_disappearing": {
+        "_description": "The video shows the main subject disappearing or leaving the frame.",
+        "_full_key": "cam_setup.shot_size.subject_disappearing"
+      },
+      "is_shot_size_applicable": {
+        "_description": "A video where the shot size can be meaningfully determined.",
+        "_full_key": "cam_setup.shot_size.is_shot_size_applicable"
+      },
+      "shot_size_change_from_small_to_large": {
+        "_description": "The shot size transitions from a tighter to a wider framing.",
+        "_full_key": "cam_setup.shot_size.shot_size_change_from_small_to_large"
+      },
+      "subject_revealing": {
+        "_description": "A revealing shot where the subject comes into view on screen.",
+        "_full_key": "cam_setup.shot_size.subject_revealing"
+      },
+      "subject_switching": {
+        "_description": "The main subject changes to another subject.",
+        "_full_key": "cam_setup.shot_size.subject_switching"
+      },
+      "is_always": {
+        "shot_size_is_medium": {
+          "_description": "A video that maintains a medium shot throughout, consistently framing about half of the human subject.",
+          "_full_key": "cam_setup.shot_size.is_always.shot_size_is_medium"
+        },
+        "shot_size_is_full": {
+          "_description": "A video that maintains a full shot throughout, consistently framing the entire body of the subject without showing excessive surrounding scenery.",
+          "_full_key": "cam_setup.shot_size.is_always.shot_size_is_full"
+        },
+        "shot_size_is_wide": {
+          "_description": "A video that maintains a wide shot throughout, consistently showing scenery or framing the entire subject while keeping ample background context.",
+          "_full_key": "cam_setup.shot_size.is_always.shot_size_is_wide"
+        },
+        "shot_size_is_extreme_close_up": {
+          "_description": "A video that maintains an extreme close-up shot throughout, consistently isolating a very small detail of the subject or scene.",
+          "_full_key": "cam_setup.shot_size.is_always.shot_size_is_extreme_close_up"
+        },
+        "shot_size_is_close_up": {
+          "_description": "A video that maintains a close-up shot throughout, consistently highlighting a distinct part of the subject or scene while still preserving some surrounding context.",
+          "_full_key": "cam_setup.shot_size.is_always.shot_size_is_close_up"
+        },
+        "shot_size_is_medium_close_up": {
+          "_description": "A video that maintains a medium close-up shot throughout, consistently framing the human subject from the chest upward.",
+          "_full_key": "cam_setup.shot_size.is_always.shot_size_is_medium_close_up"
+        },
+        "shot_size_is_extreme_wide": {
+          "_description": "A video that maintains an extreme wide shot throughout, consistently emphasizing the setting over any subjects.",
+          "_full_key": "cam_setup.shot_size.is_always.shot_size_is_extreme_wide"
+        },
+        "shot_size_is_medium_full": {
+          "_description": "A video that maintains a medium full shot throughout, consistently framing the human subject from mid-thigh (or knee) upward.",
+          "_full_key": "cam_setup.shot_size.is_always.shot_size_is_medium_full"
+        }
+      },
+      "shot_size_change_from_large_to_small": {
+        "_description": "The shot size transitions from a wider to a tighter framing.",
+        "_full_key": "cam_setup.shot_size.shot_size_change_from_large_to_small"
+      },
+      "start_with": {
+        "shot_size_start_with_extreme_close_up": {
+          "_description": "A video that starts with an extreme close-up shot, isolating a very small detail of the subject or scene.",
+          "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_extreme_close_up"
+        },
+        "shot_size_start_with_extreme_wide": {
+          "_description": "A video that starts with an extreme wide shot, emphasizing the setting over any subjects.",
+          "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_extreme_wide"
+        },
+        "shot_size_start_with_medium_close_up": {
+          "_description": "A video that starts with a medium close-up shot, framing the human subject from the chest upward.",
+          "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_medium_close_up"
+        },
+        "shot_size_start_with_medium_full": {
+          "_description": "A video that starts with a medium-full shot, framing the human subject from the mid-thigh (or knee) upward.",
+          "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_medium_full"
+        },
+        "shot_size_start_with_wide": {
+          "_description": "The video starts with a wide shot of scenery, or frames the entire subject while keeping ample background context.",
+          "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_wide"
+        },
+        "shot_size_start_with_close_up": {
+          "_description": "A video that starts with a close-up shot that highlights a distinct part of the subject or scene while still preserving some surrounding context.",
+          "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_close_up"
+        },
+        "shot_size_start_with_medium": {
+          "_description": "A video that starts with a medium shot, framing about half of the subject.",
+          "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_medium"
+        },
+        "shot_size_start_with_full": {
+          "_description": "A video that starts with a full shot, framing the entire subject while maintaining focus on it without showing excessive surrounding scenery.",
+          "_full_key": "cam_setup.shot_size.start_with.shot_size_start_with_full"
+        }
+      }
+    },
+    "point_of_view": {
+      "drone_pov": {
+        "_description": "A video filmed by a drone.",
+        "_full_key": "cam_setup.point_of_view.drone_pov"
+      },
+      "overhead_pov": {
+        "_description": "An overhead POV shot where the camera is positioned directly above the subject for a top-down perspective.",
+        "_full_key": "cam_setup.point_of_view.overhead_pov"
+      },
+      "third_person_over_hip_pov": {
+        "_description": "A third-person over-the-hip POV shot framing the character from the hip up.",
+        "_full_key": "cam_setup.point_of_view.third_person_over_hip_pov"
+      },
+      "screen_recording_pov": {
+        "_description": "A screen recording of a software or system interface (e.g., menus, windows, toolbars).",
+        "_full_key": "cam_setup.point_of_view.screen_recording_pov"
+      },
+      "third_person_side_view_game_pov": {
+        "_description": "A side-view gaming video where the camera is placed to the side, capturing the scene or character in profile.",
+        "_full_key": "cam_setup.point_of_view.third_person_side_view_game_pov"
+      },
+      "locked_on_pov": {
+        "_description": "A locked-on POV shot where the camera is mounted to an object, keeping its perspective fixed to that object.",
+        "_full_key": "cam_setup.point_of_view.locked_on_pov"
+      },
+      "first_person_pov": {
+        "_description": "A first-person POV shot, filmed as if seen directly through the character’s eyes.",
+        "_full_key": "cam_setup.point_of_view.first_person_pov"
+      },
+      "selfie_pov": {
+        "_description": "A selfie POV shot where the camera is held by the person being filmed (e.g., by hand, selfie stick, or invisible selfie rod) and faces them.",
+        "_full_key": "cam_setup.point_of_view.selfie_pov"
+      },
+      "third_person_isometric_game_pov": {
+        "_description": "A third-person isometric (2.5D) gaming video with a tilted overhead angle showing both the top and side planes of the environment in a three-quarters perspective, with minimal perspective distortion.",
+        "_full_key": "cam_setup.point_of_view.third_person_isometric_game_pov"
+      },
+      "third_person_full_body_game_pov": {
+        "_description": "A third-person 3D game video where the entire character is visible on screen.",
+        "_full_key": "cam_setup.point_of_view.third_person_full_body_game_pov"
+      },
+      "third_person_over_shoulder_pov": {
+        "_description": "An over-the-shoulder POV where the camera is positioned behind the character, showing their upper body and the scene ahead.",
+        "_full_key": "cam_setup.point_of_view.third_person_over_shoulder_pov"
+      },
+      "broadcast_pov": {
+        "_description": "The video shows a broadcast-style viewpoint used in television production.",
+        "_full_key": "cam_setup.point_of_view.broadcast_pov"
+      },
+      "third_person_top_down_game_pov": {
+        "_description": "A gaming video with a top-down or oblique top-down view, where the camera is placed above the character and environment, looking downward to show mostly the tops of objects with limited sides.",
+        "_full_key": "cam_setup.point_of_view.third_person_top_down_game_pov"
+      },
+      "objective_pov": {
+        "_description": "An objective POV shot where the camera captures the scene from a detached, observational perspective.",
+        "_full_key": "cam_setup.point_of_view.objective_pov"
+      },
+      "dashcam_pov": {
+        "_description": "A forward-facing dashcam view from a vehicle-mounted camera, capturing the scene ahead.",
+        "_full_key": "cam_setup.point_of_view.dashcam_pov"
+      }
+    },
+    "shot_type": {
+      "is_human_shot": {
+        "_description": "A shot that primarily focuses on human subjects.",
+        "_full_key": "cam_setup.shot_type.is_human_shot"
+      },
+      "is_just_subject_scene_mismatch_shot": {
+        "_description": "The video features a subject and scene that do not match in framing, making it hard to classify the shot size.",
+        "_full_key": "cam_setup.shot_type.is_just_subject_scene_mismatch_shot"
+      },
+      "is_just_scenery_shot": {
+        "_description": "The video shows scenery or environment without focusing on any subjects.",
+        "_full_key": "cam_setup.shot_type.is_just_scenery_shot"
+      },
+      "is_non_human_shot": {
+        "_description": "A shot that primarily focuses on non-human subjects.",
+        "_full_key": "cam_setup.shot_type.is_non_human_shot"
+      },
+      "is_just_non_human_shot": {
+        "_description": "A video with one or two salient non-human subjects.",
+        "_full_key": "cam_setup.shot_type.is_just_non_human_shot"
+      },
+      "is_just_human_shot": {
+        "_description": "A video with one or two salient human subjects.",
+        "_full_key": "cam_setup.shot_type.is_just_human_shot"
+      },
+      "is_just_different_subject_in_focus_shot": {
+        "_description": "The video features multiple salient subjects differing in type or framing, making it hard to classify the exact shot size.",
+        "_full_key": "cam_setup.shot_type.is_just_different_subject_in_focus_shot"
+      },
+      "is_just_clear_subject_dynamic_size_shot": {
+        "_description": "There is a clear subject, but the framing is unstable, making the exact shot size difficult to classify.",
+        "_full_key": "cam_setup.shot_type.is_just_clear_subject_dynamic_size_shot"
+      },
+      "is_just_change_of_subject_shot": {
+        "_description": "The video includes a subject change, such as a revealing shot where a subject appears, or when a subject disappears or shifts to another.",
+        "_full_key": "cam_setup.shot_type.is_just_change_of_subject_shot"
+      },
+      "is_just_many_subject_one_focus_shot": {
+        "_description": "The video features multiple subjects where one clearly dominates as the main focus.",
+        "_full_key": "cam_setup.shot_type.is_just_many_subject_one_focus_shot"
+      },
+      "is_just_back_and_forth_change_shot": {
+        "_description": "The video has a clear subject with back-and-forth changes in shot size.",
+        "_full_key": "cam_setup.shot_type.is_just_back_and_forth_change_shot"
+      },
+      "is_just_clear_subject_atypical_shot": {
+        "_description": "The video features a clear subject with anatomy that looks unnatural or exaggerated compared to real-world counterparts, making the exact shot size difficult to classify.",
+        "_full_key": "cam_setup.shot_type.is_just_clear_subject_atypical_shot"
+      },
+      "is_just_many_subject_no_focus_shot": {
+        "_description": "The video features multiple subjects in focus, with no single subject standing out as dominant.",
+        "_full_key": "cam_setup.shot_type.is_just_many_subject_no_focus_shot"
+      }
+    },
+    "has_shot_transition_cam_setup": {
+      "_description": "The video includes a shot transition.",
+      "_full_key": "cam_setup.has_shot_transition_cam_setup"
+    },
+    "height_wrt_subject": {
+      "end_with": {
+        "height_wrt_subject_end_with_below_subject": {
+          "_description": "A video that ends with the camera positioned below the subject.",
+          "_full_key": "cam_setup.height_wrt_subject.end_with.height_wrt_subject_end_with_below_subject"
+        },
+        "height_wrt_subject_end_with_above_subject": {
+          "_description": "A video that ends with the camera positioned above the subject.",
+          "_full_key": "cam_setup.height_wrt_subject.end_with.height_wrt_subject_end_with_above_subject"
+        },
+        "height_wrt_subject_end_with_at_subject": {
+          "_description": "A video that ends with the camera positioned at the same height as the subject.",
+          "_full_key": "cam_setup.height_wrt_subject.end_with.height_wrt_subject_end_with_at_subject"
+        }
+      },
+      "from_to": {
+        "height_wrt_subject_from_below_subject_to_at_subject": {
+          "_description": "The camera starts below the subject and moves up to their height.",
+          "_full_key": "cam_setup.height_wrt_subject.from_to.height_wrt_subject_from_below_subject_to_at_subject"
+        },
+        "height_wrt_subject_from_below_subject_to_above_subject": {
+          "_description": "The camera starts below the subject and moves up to a position above them.",
+          "_full_key": "cam_setup.height_wrt_subject.from_to.height_wrt_subject_from_below_subject_to_above_subject"
+        },
+        "height_wrt_subject_from_above_subject_to_at_subject": {
+          "_description": "The camera starts noticeably higher than the subject and then moves down to their height.",
+          "_full_key": "cam_setup.height_wrt_subject.from_to.height_wrt_subject_from_above_subject_to_at_subject"
+        },
+        "height_wrt_subject_from_at_subject_to_below_subject": {
+          "_description": "The camera starts at the same height as the subject and then moves down to a lower position than them.",
+          "_full_key": "cam_setup.height_wrt_subject.from_to.height_wrt_subject_from_at_subject_to_below_subject"
+        },
+        "height_wrt_subject_from_at_subject_to_above_subject": {
+          "_description": "The camera starts at the same height as the subject and then moves up to a higher position than them.",
+          "_full_key": "cam_setup.height_wrt_subject.from_to.height_wrt_subject_from_at_subject_to_above_subject"
+        },
+        "height_wrt_subject_from_above_subject_to_below_subject": {
+          "_description": "The camera starts noticeably higher than the subject and then moves down to a position below them.",
+          "_full_key": "cam_setup.height_wrt_subject.from_to.height_wrt_subject_from_above_subject_to_below_subject"
+        }
+      },
+      "is_subject_height_applicable": {
+        "_description": "The camera height relative to the subject is clear.",
+        "_full_key": "cam_setup.height_wrt_subject.is_subject_height_applicable"
+      },
+      "height_wrt_subject_change_from_high_to_low": {
+        "_description": "A shot where the camera's height decreases noticeably, transitioning from above to level with the subject or from level to below.",
+        "_full_key": "cam_setup.height_wrt_subject.height_wrt_subject_change_from_high_to_low"
+      },
+      "height_wrt_subject_change": {
+        "_description": "A shot where the camera's height relative to the subject changes significantly, moving between positions above, at level with, or below the subject.",
+        "_full_key": "cam_setup.height_wrt_subject.height_wrt_subject_change"
+      },
+      "height_wrt_subject_change_from_low_to_high": {
+        "_description": "A shot where the camera's height increases noticeably, transitioning from below to level with the subject or from level to above.",
+        "_full_key": "cam_setup.height_wrt_subject.height_wrt_subject_change_from_low_to_high"
+      },
+      "is_always": {
+        "height_wrt_subject_is_below_subject": {
+          "_description": "The camera remains positioned below the subject throughout the video.",
+          "_full_key": "cam_setup.height_wrt_subject.is_always.height_wrt_subject_is_below_subject"
+        },
+        "height_wrt_subject_is_at_subject": {
+          "_description": "The camera remains positioned at the same height as the subject throughout the video.",
+          "_full_key": "cam_setup.height_wrt_subject.is_always.height_wrt_subject_is_at_subject"
+        },
+        "height_wrt_subject_is_above_subject": {
+          "_description": "The camera remains positioned above the subject throughout the video.",
+          "_full_key": "cam_setup.height_wrt_subject.is_always.height_wrt_subject_is_above_subject"
+        }
+      },
+      "start_with": {
+        "height_wrt_subject_start_with_above_subject": {
+          "_description": "A video that starts with the camera positioned above the subject.",
+          "_full_key": "cam_setup.height_wrt_subject.start_with.height_wrt_subject_start_with_above_subject"
+        },
+        "height_wrt_subject_start_with_below_subject": {
+          "_description": "A video that starts with the camera positioned below the subject.",
+          "_full_key": "cam_setup.height_wrt_subject.start_with.height_wrt_subject_start_with_below_subject"
+        },
+        "height_wrt_subject_start_with_at_subject": {
+          "_description": "A video that starts with the camera positioned at the same height as the subject.",
+          "_full_key": "cam_setup.height_wrt_subject.start_with.height_wrt_subject_start_with_at_subject"
+        }
+      }
+    },
+    "height_wrt_ground": {
+      "end_with": {
+        "height_wrt_ground_end_with_ground_level": {
+          "_description": "The video ends with the camera at ground level, positioned close to the ground.",
+          "_full_key": "cam_setup.height_wrt_ground.end_with.height_wrt_ground_end_with_ground_level"
+        },
+        "height_wrt_ground_end_with_water_level": {
+          "_description": "The video ends with the camera positioned near water level, showing the waterline clearly and not from an aerial view.",
+          "_full_key": "cam_setup.height_wrt_ground.end_with.height_wrt_ground_end_with_water_level"
+        },
+        "height_wrt_ground_end_with_hip_level": {
+          "_description": "The video ends with the camera at hip level, roughly between knee and waist height, whether or not a human subject is present.",
+          "_full_key": "cam_setup.height_wrt_ground.end_with.height_wrt_ground_end_with_hip_level"
+        },
+        "height_wrt_ground_end_with_underwater_level": {
+          "_description": "The video ends with the camera fully submerged underwater.",
+          "_full_key": "cam_setup.height_wrt_ground.end_with.height_wrt_ground_end_with_underwater_level"
+        },
+        "height_wrt_ground_end_with_aerial_level": {
+          "_description": "The video ends with the camera positioned high at an aerial level.",
+          "_full_key": "cam_setup.height_wrt_ground.end_with.height_wrt_ground_end_with_aerial_level"
+        },
+        "height_wrt_ground_end_with_overhead_level": {
+          "_description": "The video ends with the camera at an overhead level, above eye level but below aerial (around second-floor height).",
+          "_full_key": "cam_setup.height_wrt_ground.end_with.height_wrt_ground_end_with_overhead_level"
+        },
+        "height_wrt_ground_end_with_eye_level": {
+          "_description": "The video ends with the camera positioned at eye level (roughly at a person's eye height, above the waist).",
+          "_full_key": "cam_setup.height_wrt_ground.end_with.height_wrt_ground_end_with_eye_level"
+        }
+      },
+      "is_height_wrt_ground_applicable": {
+        "_description": "The camera height relative to the ground or water level is clear.",
+        "_full_key": "cam_setup.height_wrt_ground.is_height_wrt_ground_applicable"
+      },
+      "underwater_to_above_water": {
+        "_description": "The camera transitions from underwater to above water.",
+        "_full_key": "cam_setup.height_wrt_ground.underwater_to_above_water"
+      },
+      "height_wrt_ground_change_from_low_to_high": {
+        "_description": "The camera height increases noticeably in relation to the ground, shifting between levels like aerial, overhead, eye, hip, or ground.",
+        "_full_key": "cam_setup.height_wrt_ground.height_wrt_ground_change_from_low_to_high"
+      },
+      "is_always": {
+        "height_wrt_ground_is_overhead_level": {
+          "_description": "The camera is positioned at an overhead level throughout the video, above eye level but below aerial (around second-floor height).",
+          "_full_key": "cam_setup.height_wrt_ground.is_always.height_wrt_ground_is_overhead_level"
+        },
+        "height_wrt_ground_is_eye_level": {
+          "_description": "The camera is positioned at eye level throughout the video (roughly at a person's eye height, above the waist).",
+          "_full_key": "cam_setup.height_wrt_ground.is_always.height_wrt_ground_is_eye_level"
+        },
+        "height_wrt_ground_is_water_level": {
+          "_description": "The camera is positioned at water level throughout the video, above the water surface with the waterline clearly visible.",
+          "_full_key": "cam_setup.height_wrt_ground.is_always.height_wrt_ground_is_water_level"
+        },
+        "height_wrt_ground_is_ground_level": {
+          "_description": "The camera is positioned at ground level throughout the video, positioned close to the ground.",
+          "_full_key": "cam_setup.height_wrt_ground.is_always.height_wrt_ground_is_ground_level"
+        },
+        "height_wrt_ground_is_hip_level": {
+          "_description": "The camera is positioned at hip level throughout the video, roughly between knee and waist height, whether or not a human subject is present.",
+          "_full_key": "cam_setup.height_wrt_ground.is_always.height_wrt_ground_is_hip_level"
+        },
+        "height_wrt_ground_is_aerial_level": {
+          "_description": "The camera remains at an aerial level height throughout the video.",
+          "_full_key": "cam_setup.height_wrt_ground.is_always.height_wrt_ground_is_aerial_level"
+        },
+        "height_wrt_ground_is_underwater_level": {
+          "_description": "The camera is fully submerged underwater throughout the video, capturing scenes beneath the water’s surface.",
+          "_full_key": "cam_setup.height_wrt_ground.is_always.height_wrt_ground_is_underwater_level"
+        }
+      },
+      "above_water_to_underwater": {
+        "_description": "The camera transitions from above water to underwater.",
+        "_full_key": "cam_setup.height_wrt_ground.above_water_to_underwater"
+      },
+      "height_wrt_ground_change_from_high_to_low": {
+        "_description": "The camera height decreases noticeably in relation to the ground, shifting between levels like aerial, overhead, eye, hip, or ground.",
+        "_full_key": "cam_setup.height_wrt_ground.height_wrt_ground_change_from_high_to_low"
+      },
+      "start_with": {
+        "height_wrt_ground_start_with_eye_level": {
+          "_description": "The video starts with the camera positioned at eye level (roughly at a person's eye height, above the waist).",
+          "_full_key": "cam_setup.height_wrt_ground.start_with.height_wrt_ground_start_with_eye_level"
+        },
+        "height_wrt_ground_start_with_hip_level": {
+          "_description": "The video starts with the camera at hip level, roughly between knee and waist height, whether or not a human subject is present.",
+          "_full_key": "cam_setup.height_wrt_ground.start_with.height_wrt_ground_start_with_hip_level"
+        },
+        "height_wrt_ground_start_with_water_level": {
+          "_description": "The video starts with the camera positioned near water level, showing the waterline clearly and not from an aerial view.",
+          "_full_key": "cam_setup.height_wrt_ground.start_with.height_wrt_ground_start_with_water_level"
+        },
+        "height_wrt_ground_start_with_underwater_level": {
+          "_description": "The video starts with the camera fully submerged underwater.",
+          "_full_key": "cam_setup.height_wrt_ground.start_with.height_wrt_ground_start_with_underwater_level"
+        },
+        "height_wrt_ground_start_with_ground_level": {
+          "_description": "The video starts with the camera at ground level, positioned close to the ground.",
+          "_full_key": "cam_setup.height_wrt_ground.start_with.height_wrt_ground_start_with_ground_level"
+        },
+        "height_wrt_ground_start_with_aerial_level": {
+          "_description": "The video starts with the camera positioned high at an aerial level.",
+          "_full_key": "cam_setup.height_wrt_ground.start_with.height_wrt_ground_start_with_aerial_level"
+        },
+        "height_wrt_ground_start_with_overhead_level": {
+          "_description": "The video begins with the camera at an overhead level, above eye level but below aerial (around second-floor height).",
+          "_full_key": "cam_setup.height_wrt_ground.start_with.height_wrt_ground_start_with_overhead_level"
+        }
+      }
+    },
+    "subject_framing": {
+      "has_subject_change": {
+        "_description": "The subject changes in the video, such as appearing, disappearing, or transitioning to another subject.",
+        "_full_key": "cam_setup.subject_framing.has_subject_change"
+      },
+      "has_many_subjects": {
+        "_description": "The video shows three or more main subjects in clear focus, or shifts focus from one subject to another.",
+        "_full_key": "cam_setup.subject_framing.has_many_subjects"
+      },
+      "is_framing_subject": {
+        "_description": "The video includes one or more salient subjects in the frame at any point.",
+        "_full_key": "cam_setup.subject_framing.is_framing_subject"
+      },
+      "has_single_dominant_subject": {
+        "_description": "A video that maintains a single or two dominant subjects throughout.",
+        "_full_key": "cam_setup.subject_framing.has_single_dominant_subject"
+      }
+    },
+    "has_overlays": {
+      "_description": "A shot containing on-screen overlays, such as watermarks, titles, subtitles, icons, heads-up displays (HUDs), or framing elements.",
+      "_full_key": "cam_setup.has_overlays"
+    },
+    "focus": {
+      "end_with": {
+        "focus_end_with_background": {
+          "_description": "The video ends with the camera focusing on the background, using a shallow depth of field.",
+          "_full_key": "cam_setup.focus.end_with.focus_end_with_background"
+        },
+        "focus_end_with_foreground": {
+          "_description": "The video ends with the camera focusing on the foreground, using a shallow depth of field.",
+          "_full_key": "cam_setup.focus.end_with.focus_end_with_foreground"
+        },
+        "focus_end_with_middle_ground": {
+          "_description": "The video ends with the camera focusing on the middleground, using a shallow depth of field to blur both the foreground and background.",
+          "_full_key": "cam_setup.focus.end_with.focus_end_with_middle_ground"
+        },
+        "focus_end_with_out_of_focus": {
+          "_description": "The video ends with the camera completely out of focus.",
+          "_full_key": "cam_setup.focus.end_with.focus_end_with_out_of_focus"
+        }
+      },
+      "is_deep_focus": {
+        "_description": "The camera uses a deep depth of field with distant details remaining sharp.",
+        "_full_key": "cam_setup.focus.is_deep_focus"
+      },
+      "is_rack_pull_focus": {
+        "_description": "A shot using rack focus or pull focus techniques to shift the focus plane.",
+        "_full_key": "cam_setup.focus.is_rack_pull_focus"
+      },
+      "focus_change_from_out_to_in_focus": {
+        "_description": "The camera starts out of focus and then becomes in focus.",
+        "_full_key": "cam_setup.focus.focus_change_from_out_to_in_focus"
+      },
+      "from_to": {
+        "focus_from_background_to_foreground": {
+          "_description": "The video starts with the camera focused on the background and then shifts the focus to the foreground.",
+          "_full_key": "cam_setup.focus.from_to.focus_from_background_to_foreground"
+        },
+        "focus_from_background_to_middle_ground": {
+          "_description": "The video starts with the camera focused on the background and then shifts the focus to the middleground.",
+          "_full_key": "cam_setup.focus.from_to.focus_from_background_to_middle_ground"
+        },
+        "focus_from_foreground_to_middle_ground": {
+          "_description": "The video starts with the camera focused on the foreground and then shifts the focus to the middleground.",
+          "_full_key": "cam_setup.focus.from_to.focus_from_foreground_to_middle_ground"
+        },
+        "focus_from_foreground_to_background": {
+          "_description": "The video starts with the camera focused on the foreground and then shifts the focus to the background.",
+          "_full_key": "cam_setup.focus.from_to.focus_from_foreground_to_background"
+        },
+        "focus_from_middle_ground_to_foreground": {
+          "_description": "The video starts with the camera focused on the middle ground and then shifts the focus to the foreground.",
+          "_full_key": "cam_setup.focus.from_to.focus_from_middle_ground_to_foreground"
+        },
+        "focus_from_middle_ground_to_background": {
+          "_description": "The video starts with the camera focused on the middle ground and then shifts the focus to the background.",
+          "_full_key": "cam_setup.focus.from_to.focus_from_middle_ground_to_background"
+        }
+      },
+      "is_ultra_shallow_focus": {
+        "_description": "The camera uses extremely shallow depth of field, with a very narrow focus range.",
+        "_full_key": "cam_setup.focus.is_ultra_shallow_focus"
+      },
+      "focus_change_from_in_to_out_of_focus": {
+        "_description": "The camera starts in sharp focus and then shifts out of focus.",
+        "_full_key": "cam_setup.focus.focus_change_from_in_to_out_of_focus"
+      },
+      "focus_change_from_far_to_near": {
+        "_description": "The focus plane shifts from distant to close, moving between foreground, middleground, or background.",
+        "_full_key": "cam_setup.focus.focus_change_from_far_to_near"
+      },
+      "is_shallow_focus": {
+        "_description": "The camera uses shallow depth of field, with a limited but noticeable range of space in focus.",
+        "_full_key": "cam_setup.focus.is_shallow_focus"
+      },
+      "focus_change": {
+        "_description": "The focal plane shifts noticeably between foreground, middleground, or background regions.",
+        "_full_key": "cam_setup.focus.focus_change"
+      },
+      "is_focus_applicable": {
+        "_description": "The camera’s depth of field can be perceived or inferred from the video.",
+        "_full_key": "cam_setup.focus.is_focus_applicable"
+      },
+      "focus_change_from_near_to_far": {
+        "_description": "The focus plane shifts from close to distant, moving between foreground, middleground, or background.",
+        "_full_key": "cam_setup.focus.focus_change_from_near_to_far"
+      },
+      "is_always": {
+        "focus_is_middle_ground": {
+          "_description": "The camera remains focused on the middleground, with the foreground and background blurred.",
+          "_full_key": "cam_setup.focus.is_always.focus_is_middle_ground"
+        },
+        "focus_is_out_of_focus": {
+          "_description": "The camera remains out of focus throughout.",
+          "_full_key": "cam_setup.focus.is_always.focus_is_out_of_focus"
+        },
+        "focus_is_background": {
+          "_description": "The camera remains focused on the background using a shallow depth of field.",
+          "_full_key": "cam_setup.focus.is_always.focus_is_background"
+        },
+        "focus_is_foreground": {
+          "_description": "The camera remains focused on the foreground using a shallow depth of field.",
+          "_full_key": "cam_setup.focus.is_always.focus_is_foreground"
+        }
+      },
+      "start_with": {
+        "focus_start_with_middle_ground": {
+          "_description": "The video starts with the camera focusing on the middleground, using a shallow depth of field to blur both the foreground and background.",
+          "_full_key": "cam_setup.focus.start_with.focus_start_with_middle_ground"
+        },
+        "focus_start_with_out_of_focus": {
+          "_description": "The video starts with the camera completely out of focus.",
+          "_full_key": "cam_setup.focus.start_with.focus_start_with_out_of_focus"
+        },
+        "focus_start_with_foreground": {
+          "_description": "The video starts with the camera focusing on the foreground, using a shallow depth of field.",
+          "_full_key": "cam_setup.focus.start_with.focus_start_with_foreground"
+        },
+        "focus_start_with_background": {
+          "_description": "The video starts with the camera focusing on the background, using a shallow depth of field.",
+          "_full_key": "cam_setup.focus.start_with.focus_start_with_background"
+        }
+      },
+      "is_focus_tracking": {
+        "_description": "The camera uses focus tracking to follow a moving subject in the video.",
+        "_full_key": "cam_setup.focus.is_focus_tracking"
+      }
+    }
+  },
+  "cam_motion": {
+    "object_centric_movement": {
+      "tilt_tracking_shot": {
+        "_description": "The camera tilts to follow the moving subject.",
+        "_full_key": "cam_motion.object_centric_movement.tilt_tracking_shot"
+      },
+      "arc_tracking_shot": {
+        "_description": "An arc tracking shot where the camera follows the moving subject while arcing around them.",
+        "_full_key": "cam_motion.object_centric_movement.arc_tracking_shot"
+      },
+      "tail_tracking_shot": {
+        "_description": "A follow tracking shot where the camera moves behind the subject, traveling in the same direction as they move away from the camera.",
+        "_full_key": "cam_motion.object_centric_movement.tail_tracking_shot"
+      },
+      "side_tracking_shot": {
+        "_description": "A side tracking shot with the camera moving from the side to follow the moving subject.",
+        "_full_key": "cam_motion.object_centric_movement.side_tracking_shot"
+      },
+      "front_side_tracking_shot": {
+        "_description": "A front-side tracking shot where the camera leads the moving subject from a front-side angle.",
+        "_full_key": "cam_motion.object_centric_movement.front_side_tracking_shot"
+      },
+      "rear_side_tracking_shot": {
+        "_description": "A rear-side tracking shot where the camera follows the moving subject at a rear-side angle.",
+        "_full_key": "cam_motion.object_centric_movement.rear_side_tracking_shot"
+      },
+      "track_shot": {
+        "_description": "The camera tracks the subject as they move.",
+        "_full_key": "cam_motion.object_centric_movement.track_shot"
+      },
+      "aerial_tracking_shot": {
+        "_description": "An aerial tracking shot where the camera follows the moving subject from an aerial view.",
+        "_full_key": "cam_motion.object_centric_movement.aerial_tracking_shot"
+      },
+      "tracking_subject_larger_size": {
+        "_description": "The subject appears larger during the tracking shot.",
+        "_full_key": "cam_motion.object_centric_movement.tracking_subject_larger_size"
+      },
+      "tracking_subject_smaller_size": {
+        "_description": "The subject appears smaller during the tracking shot.",
+        "_full_key": "cam_motion.object_centric_movement.tracking_subject_smaller_size"
+      },
+      "side_tracking_shot_leftward": {
+        "_description": "A side tracking shot where the camera moves left to follow the subject.",
+        "_full_key": "cam_motion.object_centric_movement.side_tracking_shot_leftward"
+      },
+      "side_tracking_shot_rightward": {
+        "_description": "A side tracking shot where the camera moves right to follow the subject.",
+        "_full_key": "cam_motion.object_centric_movement.side_tracking_shot_rightward"
+      },
+      "lead_tracking_shot": {
+        "_description": "A lead tracking shot where the camera moves ahead of the subject, traveling in the same direction as they approach the camera.",
+        "_full_key": "cam_motion.object_centric_movement.lead_tracking_shot"
+      },
+      "pan_tracking_shot": {
+        "_description": "The camera pans to track the moving subjects.",
+        "_full_key": "cam_motion.object_centric_movement.pan_tracking_shot"
+      }
+    },
+    "has_shot_transition_cam_motion": {
+      "_description": "The video includes a shot transition.",
+      "_full_key": "cam_motion.has_shot_transition_cam_motion"
+    },
+    "arc_crane_movement": {
+      "arc_clockwise": {
+        "has_arc_clockwise": {
+          "_description": "The camera arcs clockwise.",
+          "_full_key": "cam_motion.arc_crane_movement.arc_clockwise.has_arc_clockwise"
+        }
+      },
+      "crane_up": {
+        "has_crane_up": {
+          "_description": "The camera cranes upward in an arc relative to its own frame.",
+          "_full_key": "cam_motion.arc_crane_movement.crane_up.has_crane_up"
+        }
+      },
+      "arc_counterclockwise": {
+        "has_arc_counterclockwise": {
+          "_description": "The camera arcs counterclockwise.",
+          "_full_key": "cam_motion.arc_crane_movement.arc_counterclockwise.has_arc_counterclockwise"
+        }
+      },
+      "crane_down": {
+        "has_crane_down": {
+          "_description": "The camera cranes downward in an arc relative to its own frame.",
+          "_full_key": "cam_motion.arc_crane_movement.crane_down.has_crane_down"
+        }
+      }
+    },
+    "motion_complexity": {
+      "is_simple_motion": {
+        "_description": "The camera moves in a simple, straightforward way that is easy to classify.",
+        "_full_key": "cam_motion.motion_complexity.is_simple_motion"
+      },
+      "is_complex_motion": {
+        "_description": "The camera executes a complex movement that is hard to classify.",
+        "_full_key": "cam_motion.motion_complexity.is_complex_motion"
+      },
+      "is_minor_motion": {
+        "_description": "A scene where the camera movement is minimal or difficult to perceive.",
+        "_full_key": "cam_motion.motion_complexity.is_minor_motion"
+      }
+    },
+    "has_motion_blur": {
+      "_description": "The video exhibits a motion blur effect.",
+      "_full_key": "cam_motion.has_motion_blur"
+    },
+    "has_frame_freezing": {
+      "_description": "A shot where a single frame is frozen at some point.",
+      "_full_key": "cam_motion.has_frame_freezing"
+    },
+    "scene_movement": {
+      "dynamic_scene": {
+        "_description": "The scene in the video is dynamic and features movement.",
+        "_full_key": "cam_motion.scene_movement.dynamic_scene"
+      },
+      "mostly_static_scene": {
+        "_description": "The scene in the video is mostly static with minimal movement.",
+        "_full_key": "cam_motion.scene_movement.mostly_static_scene"
+      },
+      "static_scene": {
+        "_description": "The scene in the video is completely static.",
+        "_full_key": "cam_motion.scene_movement.static_scene"
+      }
+    },
+    "dolly_zoom_movement": {
+      "has_dolly_in_zoom_out": {
+        "_description": "The camera performs a dolly zoom effect with forward movement and zoom-out.",
+        "_full_key": "cam_motion.dolly_zoom_movement.has_dolly_in_zoom_out"
+      },
+      "has_dolly_out_zoom_in": {
+        "_description": "The camera performs a dolly zoom effect with backward movement and zoom-in.",
+        "_full_key": "cam_motion.dolly_zoom_movement.has_dolly_out_zoom_in"
+      }
+    },
+    "ground_centric_movement": {
+      "backward": {
+        "only_backward_wrt_ground_birds_worms_included": {
+          "_description": "The camera moves only backward (not zooming out) in the scene, or only south in a bird's eye view or north in a worm's eye view.",
+          "_full_key": "cam_motion.ground_centric_movement.backward.only_backward_wrt_ground_birds_worms_included"
+        },
+        "only_backward_wrt_ground": {
+          "_description": "The camera only moves physically backward (not zooming out) relative to the ground.",
+          "_full_key": "cam_motion.ground_centric_movement.backward.only_backward_wrt_ground"
+        },
+        "has_backward_wrt_ground_birds_worms_included": {
+          "_description": "The camera moves backward relative to the scene (backward normally, south from a bird's-eye view, or north from a worm's eye view).",
+          "_full_key": "cam_motion.ground_centric_movement.backward.has_backward_wrt_ground_birds_worms_included"
+        },
+        "has_backward_wrt_ground": {
+          "_description": "The camera moves physically backward (or dollies out) in the scene.",
+          "_full_key": "cam_motion.ground_centric_movement.backward.has_backward_wrt_ground"
+        }
+      },
+      "upward": {
+        "only_upward_wrt_ground": {
+          "_description": "The camera only moves physically upward (not tilting up) relative to the ground.",
+          "_full_key": "cam_motion.ground_centric_movement.upward.only_upward_wrt_ground"
+        },
+        "has_upward_wrt_ground_birds_worms_included": {
+          "_description": "The camera moves physically upward (or pedestals up) relative to the ground (even if it's a bird's or worm's eye view).",
+          "_full_key": "cam_motion.ground_centric_movement.upward.has_upward_wrt_ground_birds_worms_included"
+        },
+        "has_upward_wrt_ground": {
+          "_description": "The camera moves physically upward (or pedestals up) relative to the ground.",
+          "_full_key": "cam_motion.ground_centric_movement.upward.has_upward_wrt_ground"
+        },
+        "only_upward_wrt_ground_birds_worms_included": {
+          "_description": "The camera moves only physically upward (not tilting up) relative to the ground (even if it's a bird's or worm's eye view).",
+          "_full_key": "cam_motion.ground_centric_movement.upward.only_upward_wrt_ground_birds_worms_included"
+        }
+      },
+      "downward": {
+        "only_downward_wrt_ground": {
+          "_description": "The camera only moves physically downward (not tilting down) relative to the ground.",
+          "_full_key": "cam_motion.ground_centric_movement.downward.only_downward_wrt_ground"
+        },
+        "has_downward_wrt_ground_birds_worms_included": {
+          "_description": "The camera moves physically downward (or pedestals down) relative to the ground (even if it's a bird's or worm's eye view).",
+          "_full_key": "cam_motion.ground_centric_movement.downward.has_downward_wrt_ground_birds_worms_included"
+        },
+        "only_downward_wrt_ground_birds_worms_included": {
+          "_description": "The camera moves only physically downward (not tilting down) relative to the ground (even if it's a bird's or worm's eye view).",
+          "_full_key": "cam_motion.ground_centric_movement.downward.only_downward_wrt_ground_birds_worms_included"
+        },
+        "has_downward_wrt_ground": {
+          "_description": "The camera moves physically downward (or pedestals down) relative to the ground.",
+          "_full_key": "cam_motion.ground_centric_movement.downward.has_downward_wrt_ground"
+        }
+      },
+      "forward": {
+        "only_forward_wrt_ground_birds_worms_included": {
+          "_description": "The camera moves only physically forward (not zooming in) in the scene, or only north in a bird's eye view or south in a worm's eye view.",
+          "_full_key": "cam_motion.ground_centric_movement.forward.only_forward_wrt_ground_birds_worms_included"
+        },
+        "only_forward_wrt_ground": {
+          "_description": "The camera only moves physically forward (not zooming in) relative to the ground.",
+          "_full_key": "cam_motion.ground_centric_movement.forward.only_forward_wrt_ground"
+        },
+        "has_forward_wrt_ground": {
+          "_description": "The camera moves physically forward (or dollies in) in the scene.",
+          "_full_key": "cam_motion.ground_centric_movement.forward.has_forward_wrt_ground"
+        },
+        "has_forward_wrt_ground_birds_worms_included": {
+          "_description": "The camera moves forward relative to the scene (forward normally, north from a bird's-eye view, or south from a worm's eye view).",
+          "_full_key": "cam_motion.ground_centric_movement.forward.has_forward_wrt_ground_birds_worms_included"
+        }
+      }
+    },
+    "steadiness_and_movement": {
+      "very_stable_camera": {
+        "_description": "The video has exceptionally smooth and highly stable camera movement.",
+        "_full_key": "cam_motion.steadiness_and_movement.very_stable_camera"
+      },
+      "fixed_camera": {
+        "_description": "The video shows a completely still camera with no motion or shaking.",
+        "_full_key": "cam_motion.steadiness_and_movement.fixed_camera"
+      },
+      "clear_moving_camera": {
+        "_description": "The video has noticeable camera motion beyond minor shake or wobble.",
+        "_full_key": "cam_motion.steadiness_and_movement.clear_moving_camera"
+      },
+      "fast_moving_camera": {
+        "_description": "The camera has noticeable motion but at a fast motion speed.",
+        "_full_key": "cam_motion.steadiness_and_movement.fast_moving_camera"
+      },
+      "moving_camera": {
+        "_description": "A video where the camera moves.",
+        "_full_key": "cam_motion.steadiness_and_movement.moving_camera"
+      },
+      "fixed_camera_with_shake": {
+        "_description": "The video has a mostly stationary camera with only minor vibrations or shaking.",
+        "_full_key": "cam_motion.steadiness_and_movement.fixed_camera_with_shake"
+      },
+      "slow_moving_camera": {
+        "_description": "The camera has noticeable motion but at a slow motion speed.",
+        "_full_key": "cam_motion.steadiness_and_movement.slow_moving_camera"
+      },
+      "stable_camera": {
+        "_description": "A video where the camera movement is smooth and stable.",
+        "_full_key": "cam_motion.steadiness_and_movement.stable_camera"
+      },
+      "very_shaky_camera": {
+        "_description": "The video has noticeable vibrations, shaking, or wobbling of the camera.",
+        "_full_key": "cam_motion.steadiness_and_movement.very_shaky_camera"
+      },
+      "shaky_camera": {
+        "_description": "A video where the camera shows vibrations, shaking, or wobbling.",
+        "_full_key": "cam_motion.steadiness_and_movement.shaky_camera"
+      }
+    },
+    "camera_centric_movement": {
+      "backward": {
+        "has_backward_wrt_camera": {
+          "_description": "A video where the camera moves backward (not zooming out) with respect to the initial frame.",
+          "_full_key": "cam_motion.camera_centric_movement.backward.has_backward_wrt_camera"
+        },
+        "only_backward_wrt_camera": {
+          "_description": "The camera moves only physically backward (not zooming out) with respect to the initial frame, without any other movement.",
+          "_full_key": "cam_motion.camera_centric_movement.backward.only_backward_wrt_camera"
+        }
+      },
+      "tilt_up": {
+        "only_tilt_up": {
+          "_description": "The camera only tilts upward without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.tilt_up.only_tilt_up"
+        },
+        "has_tilt_up": {
+          "_description": "The camera tilts upward.",
+          "_full_key": "cam_motion.camera_centric_movement.tilt_up.has_tilt_up"
+        }
+      },
+      "zoom_in": {
+        "only_zoom_in": {
+          "_description": "The camera only zooms in without any other movement.",
+          "_full_key": "cam_motion.camera_centric_movement.zoom_in.only_zoom_in"
+        },
+        "has_zoom_in": {
+          "_description": "The camera zooms in.",
+          "_full_key": "cam_motion.camera_centric_movement.zoom_in.has_zoom_in"
+        }
+      },
+      "rightward": {
+        "only_rightward": {
+          "_description": "The camera only moves laterally rightward with no other movement.",
+          "_full_key": "cam_motion.camera_centric_movement.rightward.only_rightward"
+        },
+        "has_rightward": {
+          "_description": "The camera moves physically rightward (or trucks right).",
+          "_full_key": "cam_motion.camera_centric_movement.rightward.has_rightward"
+        }
+      },
+      "tilt_down": {
+        "has_tilt_down": {
+          "_description": "The camera tilts downward.",
+          "_full_key": "cam_motion.camera_centric_movement.tilt_down.has_tilt_down"
+        },
+        "only_tilt_down": {
+          "_description": "The camera only tilts downward without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.tilt_down.only_tilt_down"
+        }
+      },
+      "upward": {
+        "has_upward_wrt_camera": {
+          "_description": "The camera moves physically upward (or pedestals up) with respect to the initial frame.",
+          "_full_key": "cam_motion.camera_centric_movement.upward.has_upward_wrt_camera"
+        },
+        "only_upward_wrt_camera": {
+          "_description": "The camera only moves physically upward (or pedestals up) without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.upward.only_upward_wrt_camera"
+        }
+      },
+      "roll_counterclockwise": {
+        "only_roll_counterclockwise": {
+          "_description": "The camera only rolls counterclockwise without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.roll_counterclockwise.only_roll_counterclockwise"
+        },
+        "has_roll_counterclockwise": {
+          "_description": "The camera rolls counterclockwise.",
+          "_full_key": "cam_motion.camera_centric_movement.roll_counterclockwise.has_roll_counterclockwise"
+        }
+      },
+      "downward": {
+        "only_downward_wrt_camera": {
+          "_description": "The camera only moves physically downward (or pedestals down) without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.downward.only_downward_wrt_camera"
+        },
+        "has_downward_wrt_camera": {
+          "_description": "The camera moves physically downward (or pedestals down) with respect to the initial frame.",
+          "_full_key": "cam_motion.camera_centric_movement.downward.has_downward_wrt_camera"
+        }
+      },
+      "roll_clockwise": {
+        "only_roll_clockwise": {
+          "_description": "The camera only rolls clockwise without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.roll_clockwise.only_roll_clockwise"
+        },
+        "has_roll_clockwise": {
+          "_description": "The camera rolls clockwise.",
+          "_full_key": "cam_motion.camera_centric_movement.roll_clockwise.has_roll_clockwise"
+        }
+      },
+      "pan_left": {
+        "has_pan_left": {
+          "_description": "The camera pans to the left.",
+          "_full_key": "cam_motion.camera_centric_movement.pan_left.has_pan_left"
+        },
+        "only_pan_left": {
+          "_description": "The camera only pans leftward without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.pan_left.only_pan_left"
+        }
+      },
+      "leftward": {
+        "only_leftward": {
+          "_description": "The camera only moves laterally leftward without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.leftward.only_leftward"
+        },
+        "has_leftward": {
+          "_description": "The camera moves physically leftward (or trucks left).",
+          "_full_key": "cam_motion.camera_centric_movement.leftward.has_leftward"
+        }
+      },
+      "pan_right": {
+        "has_pan_right": {
+          "_description": "The camera pans to the right.",
+          "_full_key": "cam_motion.camera_centric_movement.pan_right.has_pan_right"
+        },
+        "only_pan_right": {
+          "_description": "The camera only pans rightward without any other camera movements.",
+          "_full_key": "cam_motion.camera_centric_movement.pan_right.only_pan_right"
+        }
+      },
+      "forward": {
+        "only_forward_wrt_camera": {
+          "_description": "The camera moves only physically forward (not zooming in) with respect to the initial frame, without any other movement.",
+          "_full_key": "cam_motion.camera_centric_movement.forward.only_forward_wrt_camera"
+        },
+        "has_forward_wrt_camera": {
+          "_description": "The camera physically moves forward (not zooming in) with respect to the initial frame.",
+          "_full_key": "cam_motion.camera_centric_movement.forward.has_forward_wrt_camera"
+        }
+      },
+      "zoom_out": {
+        "has_zoom_out": {
+          "_description": "The camera zooms out.",
+          "_full_key": "cam_motion.camera_centric_movement.zoom_out.has_zoom_out"
+        },
+        "only_zoom_out": {
+          "_description": "The camera only zooms out with no other movement.",
+          "_full_key": "cam_motion.camera_centric_movement.zoom_out.only_zoom_out"
+        }
+      }
+    }
+  },
+  "lighting_setup": {
+    "has_shot_transition_lighting_setup": {
+      "_description": "A video that includes shot transitions.",
+      "_full_key": "lighting_setup.has_shot_transition_lighting_setup"
+    },
+    "light_source": {
+      "has_moonlight_starlight": {
+        "_description": "The scene is consistently lit primarily by moonlight or starlight, and the moon or stars are visible in the scene.",
+        "_full_key": "lighting_setup.light_source.has_moonlight_starlight"
+      },
+      "has_non_visible_light_source": {
+        "_description": "The video never shows any visible light source, and the lighting cannot be clearly attributed to sunlight.",
+        "_full_key": "lighting_setup.light_source.has_non_visible_light_source"
+      },
+      "has_artificial_practical_light": {
+        "_description": "The scene is consistently lit by artificial practical light sources, such as lamps, streetlights, or LEDs, with the light source visible at some point in the video.",
+        "_full_key": "lighting_setup.light_source.has_artificial_practical_light"
+      },
+      "has_firelight": {
+        "_description": "The scene is consistently lit primarily by firelight, and the fire is visible in the scene.",
+        "_full_key": "lighting_setup.light_source.has_firelight"
+      },
+      "is_abstract": {
+        "_description": "The video features an abstract or synthetic scene, with non-physically realistic lighting that makes it hard to identify the light source.",
+        "_full_key": "lighting_setup.light_source.is_abstract"
+      },
+      "has_sunlight": {
+        "_description": "The scene is consistently lit primarily by sunlight, whether or not the sun itself is visible in the frame.",
+        "_full_key": "lighting_setup.light_source.has_sunlight"
+      },
+      "has_unclear_or_changing_light_source": {
+        "_description": "The video’s primary light source changes over time or comes from an uncommon source other than the sun, fire, moon, stars, or artificial light.",
+        "_full_key": "lighting_setup.light_source.has_unclear_or_changing_light_source"
+      }
+    },
+    "dynamic_effect": {
+      "diffusion": {
+        "_description": "The video features a noticable diffusion effect, where particles, fluids, or other materials spread and disperse over time.",
+        "_full_key": "lighting_setup.dynamic_effect.diffusion"
+      },
+      "splashing_waves": {
+        "_description": "The video features noticeable splashing or wave-like motion.",
+        "_full_key": "lighting_setup.dynamic_effect.splashing_waves"
+      },
+      "revealing_shot": {
+        "_description": "The video features a revealing shot that uncovers a new scene or subject.",
+        "_full_key": "lighting_setup.dynamic_effect.revealing_shot"
+      },
+      "transformation_morphing": {
+        "_description": "The video features a transformation or morphing effect where one object changes into another.",
+        "_full_key": "lighting_setup.dynamic_effect.transformation_morphing"
+      },
+      "explosion": {
+        "_description": "The video shows explosions with sudden bursts of flames, matter, and outward force.",
+        "_full_key": "lighting_setup.dynamic_effect.explosion"
+      },
+      "levitation_floating": {
+        "_description": "The video shows objects or characters floating or levitating as if unaffected by gravity.",
+        "_full_key": "lighting_setup.dynamic_effect.levitation_floating"
+      },
+      "shattering_breaking": {
+        "_description": "The video shows objects breaking, shattering, or fragmenting into smaller pieces.",
+        "_full_key": "lighting_setup.dynamic_effect.shattering_breaking"
+      }
+    },
+    "color_grading": {
+      "is_color_grading_complex": {
+        "_description": "The video exhibits complex color grading, composition, or dynamics, involving dynamic or contrasting variations in color tone, temperature, colorfulness, saturation, or brightness.",
+        "_full_key": "lighting_setup.color_grading.is_color_grading_complex"
+      },
+      "is_black_white": {
+        "_description": "The video is entirely in black and white, with no chromatic color present; only black, white, or shades of gray may appear.",
+        "_full_key": "lighting_setup.color_grading.is_black_white"
+      },
+      "temperature": {
+        "color_temperature_is_neutral": {
+          "_description": "The video's color palette is mostly neutral and stable, with no strong warm or cool tones standing out, and the contrasts between colors are mild (not overly intense).",
+          "_full_key": "lighting_setup.color_grading.temperature.color_temperature_is_neutral"
+        },
+        "color_temperature_is_contrasting": {
+          "_description": "The video shows intense contrasts between warm and cool colors.",
+          "_full_key": "lighting_setup.color_grading.temperature.color_temperature_is_contrasting"
+        },
+        "color_temperature_is_changing": {
+          "_description": "The video has noticeable shifts between warm, neutral, and cool color tones in large parts of the scene.",
+          "_full_key": "lighting_setup.color_grading.temperature.color_temperature_is_changing"
+        },
+        "color_temperature_is_cool": {
+          "_description": "The video predominantly features cool tones such as blues or greens, with no obvious warm tones except possibly black, white, or gray.",
+          "_full_key": "lighting_setup.color_grading.temperature.color_temperature_is_cool"
+        },
+        "color_temperature_is_warm": {
+          "_description": "The video predominantly features warm tones such as reds, oranges, or yellows, with no obvious cool tones except possibly black, white, or gray.",
+          "_full_key": "lighting_setup.color_grading.temperature.color_temperature_is_warm"
+        },
+        "color_temperature_is_complex_others": {
+          "_description": "The video shows intense contrasts between warm and cool colors with noticeable color temperature shifts across large areas of the scene.",
+          "_full_key": "lighting_setup.color_grading.temperature.color_temperature_is_complex_others"
+        }
+      },
+      "brightness": {
+        "brightness_is_contrasting": {
+          "_description": "The video shows both very bright (overexposed) and very dark (underexposed) regions within the same frame, across most or all of the video.",
+          "_full_key": "lighting_setup.color_grading.brightness.brightness_is_contrasting"
+        },
+        "brightness_is_changing": {
+          "_description": "The overall brightness or exposure of the video changes over time, with noticeable shifts between brighter and darker levels across large portions of the frame.",
+          "_full_key": "lighting_setup.color_grading.brightness.brightness_is_changing"
+        },
+        "brightness_is_very_bright": {
+          "_description": "The video appears excessively bright due to overexposure, losing details in around half or more of the frame and across most or all of the video.",
+          "_full_key": "lighting_setup.color_grading.brightness.brightness_is_very_bright"
+        },
+        "brightness_is_neutral": {
+          "_description": "The video shows a scene with balanced and stable illumination, with no large areas that are too bright (overexposed) or too dark (underexposed).",
+          "_full_key": "lighting_setup.color_grading.brightness.brightness_is_neutral"
+        },
+        "brightness_is_very_dark": {
+          "_description": "The video appears very dark due to underexposure or dim lighting, with a loss of detail in around half or more of the frame and across most or all of the video.",
+          "_full_key": "lighting_setup.color_grading.brightness.brightness_is_very_dark"
+        },
+        "brightness_is_complex_others": {
+          "_description": "The video shows both very bright (overexposed) and very dark (underexposed) regions within the same frame, and the overall brightness or exposure changes over time across large portions of the frame.",
+          "_full_key": "lighting_setup.color_grading.brightness.brightness_is_complex_others"
+        }
+      },
+      "colorfulness": {
+        "colorfulness_is_contrasting": {
+          "_description": "The video features striking contrasts between regions of high and low colorfulness (or saturation), creating a clear visual separation.",
+          "_full_key": "lighting_setup.color_grading.colorfulness.colorfulness_is_contrasting"
+        },
+        "colorfulness_is_complex_others": {
+          "_description": "The video features striking contrasts between regions of high and low colorfulness (saturation), with noticeable shifts in colorfulness (saturation) between high, neutral, and low levels across large parts of the scene.",
+          "_full_key": "lighting_setup.color_grading.colorfulness.colorfulness_is_complex_others"
+        },
+        "colorfulness_is_low": {
+          "_description": "The video features only muted or grayish (desaturated) colors, without being entirely black and white.",
+          "_full_key": "lighting_setup.color_grading.colorfulness.colorfulness_is_low"
+        },
+        "colorfulness_is_high": {
+          "_description": "The video predominantly features highly vibrant and intense colors, with vivid hues dominating the scene and creating an overall impression of strong colorfulness (or saturation).",
+          "_full_key": "lighting_setup.color_grading.colorfulness.colorfulness_is_high"
+        },
+        "colorfulness_is_changing": {
+          "_description": "The video has noticeable shifts in colorfulness (or saturation) between high, neutral, and low levels across large parts of the scene.",
+          "_full_key": "lighting_setup.color_grading.colorfulness.colorfulness_is_changing"
+        },
+        "colorfulness_is_neutral": {
+          "_description": "The video features a balanced and stable level of colorfulness, without being dominated by either overly vivid or overly grayish colors.",
+          "_full_key": "lighting_setup.color_grading.colorfulness.colorfulness_is_neutral"
+        }
+      }
+    },
+    "dynamic_light": {
+      "color_shifting_sudden": {
+        "_description": "The video features a sudden color shift, with a rapid and noticeable change in overall or lighting color.",
+        "_full_key": "lighting_setup.dynamic_light.color_shifting_sudden"
+      },
+      "moving_light": {
+        "_description": "The video features major light source(s) that traverse the scene or change direction.",
+        "_full_key": "lighting_setup.dynamic_light.moving_light"
+      },
+      "flashing": {
+        "_description": "The lighting in the video flashes, creating sudden bursts of light in an on/off pattern that changes the brightness of the scene.",
+        "_full_key": "lighting_setup.dynamic_light.flashing"
+      },
+      "color_shifting_smooth": {
+        "_description": "The video features a smooth color shift, with a gradual yet noticeable change in overall or lighting color.",
+        "_full_key": "lighting_setup.dynamic_light.color_shifting_smooth"
+      },
+      "pulsing_flickering": {
+        "_description": "The video features lighting that varies in brightness, either through rhythmic pulsing or irregular flickering.",
+        "_full_key": "lighting_setup.dynamic_light.pulsing_flickering"
+      }
+    },
+    "light_quality": {
+      "light_quality_is_complex_ambiguous": {
+        "_description": "The scene lacks sufficient visual information to determine light quality, due to non-physically realistic shading, absence of visible shadow-casting surface areas, or visual degradation.",
+        "_full_key": "lighting_setup.light_quality.light_quality_is_complex_ambiguous"
+      },
+      "sunlight_quality": {
+        "sunlight_quality_is_sunset_sunrise": {
+          "_description": "The scene features warm, golden sunlight at sunrise or sunset.",
+          "_full_key": "lighting_setup.light_quality.sunlight_quality.sunlight_quality_is_sunset_sunrise"
+        },
+        "sunlight_quality_is_unknown": {
+          "_description": "The scene has no clear sunlight, or the sunlight quality changes during the video, such as transitions between day and night, blue hour to golden hour, or overcast to sunny conditions.",
+          "_full_key": "lighting_setup.light_quality.sunlight_quality.sunlight_quality_is_unknown"
+        },
+        "sunlight_quality_is_soft": {
+          "_description": "The scene is illuminated by soft, diffused sunlight, such as from cloudy skies, mist, or twilight conditions, with no directional sunlight and either no visible shadows or low-contrast shadows.",
+          "_full_key": "lighting_setup.light_quality.sunlight_quality.sunlight_quality_is_soft"
+        },
+        "sunlight_quality_is_normal": {
+          "_description": "The scene features regular daylight with balanced brightness, moderate contrast, and soft-edged shadows, and is neither sunny, overcast, nor captured during golden or blue hour.",
+          "_full_key": "lighting_setup.light_quality.sunlight_quality.sunlight_quality_is_normal"
+        },
+        "sunlight_quality_is_hard": {
+          "_description": "The scene features strong direct sunlight, resulting in very bright, high-contrast lighting with sharp, hard-edged shadows.",
+          "_full_key": "lighting_setup.light_quality.sunlight_quality.sunlight_quality_is_hard"
+        }
+      },
+      "light_quality_is_hard": {
+        "_description": "All or nearly all visible surface areas within the scene are lit by hard light, indicated by sharp-edged shadows with narrow or no penumbrae, or abrupt light-to-dark transitions, or textures that are strongly emphasized, or highlights that are small and bright, and no noticeable signs of soft light.",
+        "_full_key": "lighting_setup.light_quality.light_quality_is_hard"
+      },
+      "light_quality_is_changing": {
+        "_description": "Some surface area in the scene changes in light quality over time, shifting between soft and hard light.",
+        "_full_key": "lighting_setup.light_quality.light_quality_is_changing"
+      },
+      "light_quality_is_soft": {
+        "_description": "All visible surface areas within the scene are lit by soft light, indicated by the absence of sharp-edged shadows, or the presence of wide penumbrae, or smooth light-to-dark transitions, or surface textures appearing subdued, or highlights that are soft or diffused, and no noticeable signs of hard light.",
+        "_full_key": "lighting_setup.light_quality.light_quality_is_soft"
+      }
+    },
+    "natural_effect": {
+      "aerial_perspective": {
+        "_description": "The video features a noticeable aerial perspective, where distant scenery appears less detailed, desaturated, and hazier due to atmospheric effects.",
+        "_full_key": "lighting_setup.natural_effect.aerial_perspective"
+      },
+      "heat_haze": {
+        "_description": "The video features a noticeable heat haze effect, with air distortions and shimmering caused by rising heat.",
+        "_full_key": "lighting_setup.natural_effect.heat_haze"
+      },
+      "rainbow": {
+        "_description": "The video features a noticeable rainbow.",
+        "_full_key": "lighting_setup.natural_effect.rainbow"
+      },
+      "aurora": {
+        "_description": "The video features an aurora, with flowing, colorful light patterns in the sky.",
+        "_full_key": "lighting_setup.natural_effect.aurora"
+      },
+      "lightning": {
+        "_description": "The video captures a lightning effect with intense flashes and jagged, branching streaks.",
+        "_full_key": "lighting_setup.natural_effect.lightning"
+      }
+    },
+    "shadow_pattern": {
+      "venetian_blinds": {
+        "_description": "The video features distinct shadow patterns cast by venetian blinds or similar slatted structures.",
+        "_full_key": "lighting_setup.shadow_pattern.venetian_blinds"
+      },
+      "subject_shape": {
+        "_description": "The video features shadows shaped by the subject to support the narrative, emphasizing form or movement.",
+        "_full_key": "lighting_setup.shadow_pattern.subject_shape"
+      },
+      "foliage": {
+        "_description": "The video features shadow patterns created by foliage, such as leaves or branches.",
+        "_full_key": "lighting_setup.shadow_pattern.foliage"
+      },
+      "window_frames": {
+        "_description": "The video features shadows cast by window frames.",
+        "_full_key": "lighting_setup.shadow_pattern.window_frames"
+      },
+      "shadow_patterns_gobo_others": {
+        "_description": "The video features distinct or dynamic shadow patterns or gobo lighting effects other than Venetian blinds, window frames, foliage, or the subject's shape.",
+        "_full_key": "lighting_setup.shadow_pattern.shadow_patterns_gobo_others"
+      },
+      "has_shadow_patterns": {
+        "_description": "The video features distinct shadow patterns or gobo lighting effects that shape the visual composition.",
+        "_full_key": "lighting_setup.shadow_pattern.has_shadow_patterns"
+      }
+    },
+    "lens_effect": {
+      "lens_flares": {
+        "_description": "The video contains obvious lens flares.",
+        "_full_key": "lighting_setup.lens_effect.lens_flares"
+      },
+      "bokeh": {
+        "_description": "The video features soft, out-of-focus light orbs, created by distant lights and a shallow depth of field.",
+        "_full_key": "lighting_setup.lens_effect.bokeh"
+      },
+      "mist_diffusion": {
+        "_description": "The video uses a mist diffusion filter to soften the image, creating a dreamy, glowing effect.",
+        "_full_key": "lighting_setup.lens_effect.mist_diffusion"
+      },
+      "lens_flares_anamorphic": {
+        "_description": "The video contains anamorphic lens flares as bright, elongated streaks from light interacting with an anamorphic lens.",
+        "_full_key": "lighting_setup.lens_effect.lens_flares_anamorphic"
+      },
+      "lens_flare_regular": {
+        "_description": "The video contains typical (non-anamorphic) lens flares, appearing as circular, polygonal, veiling, scattered, or streak-like artifacts.",
+        "_full_key": "lighting_setup.lens_effect.lens_flare_regular"
+      }
+    },
+    "reflection": {
+      "reflection_from_water": {
+        "_description": "The video shows noticeable shimmering effects or bright highlights from light reflecting off water.",
+        "_full_key": "lighting_setup.reflection.reflection_from_water"
+      },
+      "reflection_from_glossy_surface": {
+        "_description": "The video features a noticeable specular reflection from light bouncing off a smooth, glossy surface but does not clearly mirror the scene in detail.",
+        "_full_key": "lighting_setup.reflection.reflection_from_glossy_surface"
+      },
+      "reflection_from_mirror": {
+        "_description": "The video shows reflections from light bouncing off a mirror, clearly mirroring the scenery in detail.",
+        "_full_key": "lighting_setup.reflection.reflection_from_mirror"
+      }
+    },
+    "scene": {
+      "scene_type_is_synthetic": {
+        "_description": "The video is not a camera capture but a stylized or non-photorealistic render (e.g., anime, cartoons, or low-fidelity game graphics) with non-physically realistic lighting such as flat shading, fake shadows, missing reflections, or exaggerated glow effects.",
+        "_full_key": "lighting_setup.scene.scene_type_is_synthetic"
+      },
+      "scene_type_is_exterior": {
+        "_description": "The video is captured through a camera (real or simulated) and takes place outdoors with physically realistic lighting.",
+        "_full_key": "lighting_setup.scene.scene_type_is_exterior"
+      },
+      "scene_type_is_interior": {
+        "_description": "The video is captured through a camera (real or simulated) and takes place indoors with physically realistic lighting.",
+        "_full_key": "lighting_setup.scene.scene_type_is_interior"
+      },
+      "scene_type_is_unclear_or_changing": {
+        "_description": "The video is captured through a camera (real or simulated) with physically realistic lighting, but whether it is indoors or outdoors is unclear or changes during the video.",
+        "_full_key": "lighting_setup.scene.scene_type_is_unclear_or_changing"
+      }
+    },
+    "special_effect": {
+      "street_light": {
+        "_description": "The video features light from street lamps.",
+        "_full_key": "lighting_setup.special_effect.street_light"
+      },
+      "headlight_flashlight": {
+        "_description": "The video features a headlight or flashlight illuminating the scene in front with intense, focused light, creating sharp contrast with the darker surroundings.",
+        "_full_key": "lighting_setup.special_effect.headlight_flashlight"
+      },
+      "vignette": {
+        "_description": "The video features a vignette effect, with edges that gradually darken or fade.",
+        "_full_key": "lighting_setup.special_effect.vignette"
+      },
+      "water_caustics": {
+        "_description": "The video features water caustics, where refracted and reflected light creates dynamic, rippling patterns.",
+        "_full_key": "lighting_setup.special_effect.water_caustics"
+      },
+      "silhouette": {
+        "_description": "Silhouette lighting creates a dark outline of the foreground subject against a bright background.",
+        "_full_key": "lighting_setup.special_effect.silhouette"
+      },
+      "city_light": {
+        "_description": "The video features bright, colorful city lighting from various artificial sources.",
+        "_full_key": "lighting_setup.special_effect.city_light"
+      },
+      "professional_lighting": {
+        "_description": "The lighting setup appears professionally done (e.g., portrait, stage, or cinematic lighting).",
+        "_full_key": "lighting_setup.special_effect.professional_lighting"
+      },
+      "rim_light": {
+        "_description": "Rim lighting creates a glowing edge around the subject.",
+        "_full_key": "lighting_setup.special_effect.rim_light"
+      },
+      "colored_neon_lighting": {
+        "_description": "The video features artificial colored or neon lighting.",
+        "_full_key": "lighting_setup.special_effect.colored_neon_lighting"
+      }
+    },
+    "subject_lighting": {
+      "subject_condition": {
+        "is_unclear_or_light_emitting_subject": {
+          "_description": "The video lacks a clear subject visibly illuminated by external light, either because the subject is absent, ambiguous (e.g., scenery shot), or emits light or is engulfed by a light source in a way that obscures form shadows and highlights, making contrast and direction unreliable to judge.",
+          "_full_key": "lighting_setup.subject_lighting.subject_condition.is_unclear_or_light_emitting_subject"
+        },
+        "is_inconsistent_subject": {
+          "_description": "One or more subjects are lit by external light, but change during the shot (e.g., enter the frame, exit the frame, or are replaced).",
+          "_full_key": "lighting_setup.subject_lighting.subject_condition.is_inconsistent_subject"
+        },
+        "is_subject_lighting_unrealistic": {
+          "_description": "The video contains subjects, but the lighting is non-physically realistic, including animated, stylized, synthetic, 2D, or 2.5D content, making it too visually abstract to reliably analyze contrast and lighting direction.",
+          "_full_key": "lighting_setup.subject_lighting.subject_condition.is_subject_lighting_unrealistic"
+        },
+        "is_consistent_subject": {
+          "_description": "One or more clear, salient subjects are lit by external light and remain consistent in the frame throughout the shot.",
+          "_full_key": "lighting_setup.subject_lighting.subject_condition.is_consistent_subject"
+        }
+      },
+      "light_direction": {
+        "direction_is_complex_contrasting": {
+          "_description": "Different parts of the subject, or different subjects, are lit by different dominant light directions simultaneously, with no single direction applying across the entire subject or all subjects in the frame.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_complex_contrasting"
+        },
+        "direction_is_left_side": {
+          "_description": "All subjects are consistently illuminated by side lighting, with noticeable (or key) light (not just ambient or fill light) coming from the left side of each subject as seen from the camera, causing one side to appear more lit and the opposite side darker.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_left_side"
+        },
+        "direction_is_side_light": {
+          "_description": "There is a noticeable light source consistently illuminating the subject from one side (side lighting), as seen from the camera’s perspective.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_side_light"
+        },
+        "direction_is_complex_others": {
+          "_description": "Different parts of the subject (or different subjects) are lit by different directions simultaneously, and these directions also change over time, so the dominant light direction varies both spatially and temporally.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_complex_others"
+        },
+        "direction_is_unknown": {
+          "_description": "Lighting direction on the subject cannot be reliably judged because the video may lack a clear subject lit by external light, lack a subject altogether (e.g., scenery shot), feature both complex subject transitions and light direction that varies across regions or time, or be too stylized or abstract to physically interpret the lighting setup.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_unknown"
+        },
+        "direction_is_back_light": {
+          "_description": "All subjects are consistently back-lit by noticeable (or key) light (not just ambient or fill light) coming from the far side, with the light source positioned within a 90-degree angle behind them, facing away from the camera.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_back_light"
+        },
+        "direction_is_ambient_light": {
+          "_description": "All subjects are consistently lit with no dominant light direction, as shadows and highlights do not indicate a dominant (or key) light from the side, top, bottom, front, or back.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_ambient_light"
+        },
+        "direction_is_bottom_light": {
+          "_description": "All subjects are consistently illuminated by bottom lighting, with noticeable (or key) light (not just ambient or fill light) coming from below and casting shadows upward.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_bottom_light"
+        },
+        "direction_is_top_light": {
+          "_description": "All subjects are consistently illuminated by top lighting, with noticeable (or key) light (not just ambient or fill light) coming from above and casting shadows downward.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_top_light"
+        },
+        "direction_is_front_light": {
+          "_description": "All subjects are consistently front-lit by noticeable (or key) light (not just ambient or fill light) coming from the camera side, with the light source positioned within a 90-degree angle in front of them, extending toward the camera.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_front_light"
+        },
+        "direction_is_complex_changing": {
+          "_description": "The dominant light direction on the subject(s) changes over time, as judged from the camera’s perspective.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_complex_changing"
+        },
+        "direction_is_consistent": {
+          "_description": "The subject is consistently lit with the same light direction throughout the video and uniform across the entire subject's surface.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_consistent"
+        },
+        "direction_is_right_side": {
+          "_description": "All subjects are consistently illuminated by side lighting, with noticeable (or key) light (not just ambient or fill light) coming from the right side of each subject as seen from the camera, causing one side to appear more lit and the opposite side darker.",
+          "_full_key": "lighting_setup.subject_lighting.light_direction.direction_is_right_side"
+        }
+      },
+      "light_contrast": {
+        "high_key_lighting": {
+          "_description": "The subject is lit with high-key lighting.",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.high_key_lighting"
+        },
+        "subject_light_contrast_is_complex_changing": {
+          "_description": "The lighting contrast on the subject’s surface changes over time, becoming noticeably stronger or weaker as the video progresses due to changes in illumination or subject movement.",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.subject_light_contrast_is_complex_changing"
+        },
+        "subject_light_contrast_is_minimal": {
+          "_description": "The lighting contrast on the subject’s surface is consistently minimal, with little or no visible difference between lit and shadowed areas, creating a flat appearance, roughly corresponding to a 1:1 to 1:2 light ratio (0–1 stop difference).",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.subject_light_contrast_is_minimal"
+        },
+        "subject_light_contrast_is_unknown": {
+          "_description": "Lighting contrast on the subject’s surface cannot be reliably judged because the video may lack a clear subject lit by external light, lack a subject altogether (e.g., scenery shot), feature both complex subject transitions and lighting contrast that varies across regions or time, or be too stylized or abstract to physically interpret the lighting setup.",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.subject_light_contrast_is_unknown"
+        },
+        "subject_light_contrast_is_normal": {
+          "_description": "The lighting contrast on the subject’s surface is consistently moderate, with a clear but not extreme difference between lit and shadowed areas, and all surface features remaining visible, roughly within a 1:2 to 1:8 light ratio (2–3 stops).",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.subject_light_contrast_is_normal"
+        },
+        "low_key_lighting": {
+          "_description": "The subject is lit by low-key lighting.",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.low_key_lighting"
+        },
+        "subject_light_contrast_is_high": {
+          "_description": "The lighting contrast on the subject’s surface is consistently high, with extreme brightness differences between lit and shadowed areas, and some features lost in blown-out highlights or deep shadows, roughly corresponding to a 1:16 or higher light ratio (4+ stops).",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.subject_light_contrast_is_high"
+        },
+        "flat_lighting": {
+          "_description": "The subject is lit with flat lighting, with little to no contrast",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.flat_lighting"
+        },
+        "subject_light_contrast_is_complex_contrasting": {
+          "_description": "The lighting contrast differs across parts of the subject's surface or between multiple subjects' surfaces at the same time, with variation occurring within a single frame.",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.subject_light_contrast_is_complex_contrasting"
+        },
+        "subject_light_contrast_is_complex_others": {
+          "_description": "The lighting contrast varies both over time and across different regions of the subject simultaneously, with no consistent pattern or contrast level throughout the video.",
+          "_full_key": "lighting_setup.subject_lighting.light_contrast.subject_light_contrast_is_complex_others"
+        }
+      },
+      "rembrandt_lighting": {
+        "_description": "Rembrandt lighting illuminates one side of the subject’s face, creating a small triangle of light on the other side.",
+        "_full_key": "lighting_setup.subject_lighting.rembrandt_lighting"
+      }
+    },
+    "volumetric_lighting": {
+      "light_through_medium": {
+        "_description": "The video features intense light passing through smoke or fog, shaping visible light volumes.",
+        "_full_key": "lighting_setup.volumetric_lighting.light_through_medium"
+      },
+      "has_volumetric_lighting": {
+        "_description": "The video features noticeable volumetric lighting, where light appears as a visible volume.",
+        "_full_key": "lighting_setup.volumetric_lighting.has_volumetric_lighting"
+      },
+      "volumetric_spot_light": {
+        "_description": "The video features concentrated, cone-shaped volumes of light.",
+        "_full_key": "lighting_setup.volumetric_lighting.volumetric_spot_light"
+      },
+      "volumetric_beam_light": {
+        "_description": "The video features visible beams of light with well-defined edges, creating linear volumes of light.",
+        "_full_key": "lighting_setup.volumetric_lighting.volumetric_beam_light"
+      },
+      "god_rays": {
+        "_description": "The video features striking, separated rays of light (or god rays) streaming from top through gaps in the environment.",
+        "_full_key": "lighting_setup.volumetric_lighting.god_rays"
+      },
+      "volumetric_light_others": {
+        "_description": "The video features volumetric lighting with a well-defined, contained shape (other than beams, god rays, or spotlights).",
+        "_full_key": "lighting_setup.volumetric_lighting.volumetric_light_others"
+      }
+    }
+  }
+}
